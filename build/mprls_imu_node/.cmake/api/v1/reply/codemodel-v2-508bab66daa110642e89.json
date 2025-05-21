@@ -1,0 +1,269 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-14702518969d37af2254.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21
+					]
+				},
+				{
+					"build" : "mprls_imu_node__py",
+					"jsonFile" : "directory-mprls_imu_node__py-5875ceb9eea4e1b434d3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/bmes-endoscope-25/temp_ws/endoscope-control/build/mprls_imu_node/mprls_imu_node__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "mprls_imu_node",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_mprls_imu_node_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_mprls_imu_node_egg-8deb3858a8111706392e.json",
+					"name" : "ament_cmake_python_build_mprls_imu_node_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_mprls_imu_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_mprls_imu_node-b76c3ceba09724f9bad1.json",
+					"name" : "ament_cmake_python_copy_mprls_imu_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mprls_imu_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mprls_imu_node-e031ab34d35e7e9549f8.json",
+					"name" : "mprls_imu_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mprls_imu_node__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mprls_imu_node__cpp-26dd778dd4ec82329396.json",
+					"name" : "mprls_imu_node__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "mprls_imu_node__py::@7ad875e3b8bfdfbfdf06",
+					"jsonFile" : "target-mprls_imu_node__py-23be6ace66eb4531388f.json",
+					"name" : "mprls_imu_node__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mprls_imu_node__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mprls_imu_node__rosidl_generator_c-553ecd7ff449166b65d3.json",
+					"name" : "mprls_imu_node__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mprls_imu_node__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mprls_imu_node__rosidl_generator_py-f2fb631d59a77a4a9b92.json",
+					"name" : "mprls_imu_node__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mprls_imu_node__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mprls_imu_node__rosidl_generator_type_description-b5b59fceb3ba085e9ab9.json",
+					"name" : "mprls_imu_node__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mprls_imu_node__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mprls_imu_node__rosidl_typesupport_c-a2188a87c8065cdf69d2.json",
+					"name" : "mprls_imu_node__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mprls_imu_node__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mprls_imu_node__rosidl_typesupport_cpp-2d9c7097e5936fce26fa.json",
+					"name" : "mprls_imu_node__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mprls_imu_node__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mprls_imu_node__rosidl_typesupport_fastrtps_c-401ea27f63c61ff00208.json",
+					"name" : "mprls_imu_node__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mprls_imu_node__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mprls_imu_node__rosidl_typesupport_fastrtps_cpp-2835f854dd4d67d2a685.json",
+					"name" : "mprls_imu_node__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mprls_imu_node__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mprls_imu_node__rosidl_typesupport_introspection_c-8fe4a145e795c622ebcd.json",
+					"name" : "mprls_imu_node__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mprls_imu_node__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mprls_imu_node__rosidl_typesupport_introspection_cpp-077ea9311c5d5d7fc095.json",
+					"name" : "mprls_imu_node__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mprls_imu_node_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mprls_imu_node_s__rosidl_typesupport_c-55fe865a5b85ee08cdd2.json",
+					"name" : "mprls_imu_node_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mprls_imu_node_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mprls_imu_node_s__rosidl_typesupport_fastrtps_c-d1b36c363862124295f6.json",
+					"name" : "mprls_imu_node_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mprls_imu_node_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mprls_imu_node_s__rosidl_typesupport_introspection_c-29cf20f6026d7085b2c2.json",
+					"name" : "mprls_imu_node_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mprls_imu_node_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mprls_imu_node_uninstall-3ee6c92368184fcd7241.json",
+					"name" : "mprls_imu_node_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sensor_drivers::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sensor_drivers-5182b4c0c4c6e9ed784f.json",
+					"name" : "sensor_drivers",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_mprls_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_mprls_node-17b882a9c7cb3bf369fb.json",
+					"name" : "test_mprls_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_tca::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_tca-2bf5c67542d01c80d2bf.json",
+					"name" : "test_tca",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-3cf240174b2ee8b51c4e.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/bmes-endoscope-25/temp_ws/endoscope-control/build/mprls_imu_node",
+		"source" : "/home/bmes-endoscope-25/temp_ws/endoscope-control/src/mprls_imu_node"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

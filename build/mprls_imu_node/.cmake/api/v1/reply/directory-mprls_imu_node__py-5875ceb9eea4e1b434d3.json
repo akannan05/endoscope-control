@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "mprls_imu_node__py",
+		"source" : "/home/bmes-endoscope-25/temp_ws/endoscope-control/build/mprls_imu_node/mprls_imu_node__py"
+	}
+}

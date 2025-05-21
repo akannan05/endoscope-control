@@ -1,0 +1,22 @@
+[  2%] Built target mprls_imu_node__rosidl_generator_type_description
+[  4%] [32mBuilding CXX object CMakeFiles/sensor_drivers.dir/src/Adafruit_MPRLS.cpp.o[0m
+[ 11%] Built target test_tca
+[ 14%] [32mBuilding CXX object CMakeFiles/sensor_drivers.dir/src/TCA9548A.cpp.o[0m
+[ 14%] Built target ament_cmake_python_copy_mprls_imu_node
+[ 16%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[ 19%] [34m[1mGenerating C code for ROS interfaces[0m
+[ 19%] Built target mprls_imu_node__cpp
+[ 21%] [32mBuilding C object CMakeFiles/mprls_imu_node__rosidl_generator_c.dir/rosidl_generator_c/mprls_imu_node/msg/detail/mprls_pressures__description.c.o[0m
+[ 23%] [32mBuilding C object CMakeFiles/mprls_imu_node__rosidl_generator_c.dir/rosidl_generator_c/mprls_imu_node/msg/detail/mprls_pressures__functions.c.o[0m
+[ 26%] [32mBuilding C object CMakeFiles/mprls_imu_node__rosidl_generator_c.dir/rosidl_generator_c/mprls_imu_node/msg/detail/mprls_pressures__type_support.c.o[0m
+[ 28%] [32m[1mLinking C shared library libmprls_imu_node__rosidl_generator_c.so[0m
+[ 28%] Built target mprls_imu_node__rosidl_generator_c
+running egg_info
+creating mprls_imu_node.egg-info
+writing mprls_imu_node.egg-info/PKG-INFO
+writing dependency_links to mprls_imu_node.egg-info/dependency_links.txt
+writing top-level names to mprls_imu_node.egg-info/top_level.txt
+writing manifest file 'mprls_imu_node.egg-info/SOURCES.txt'
+reading manifest file 'mprls_imu_node.egg-info/SOURCES.txt'
+writing manifest file 'mprls_imu_node.egg-info/SOURCES.txt'
+[ 28%] Built target ament_cmake_python_build_mprls_imu_node_egg

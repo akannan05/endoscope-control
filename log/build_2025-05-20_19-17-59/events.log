@@ -1,0 +1,244 @@
+[0.000000] (-) TimerEvent: {}
+[0.000943] (mprls_imu_node) JobQueued: {'identifier': 'mprls_imu_node', 'dependencies': OrderedDict()}
+[0.001897] (mprls_imu_node) JobStarted: {'identifier': 'mprls_imu_node'}
+[0.069923] (mprls_imu_node) JobProgress: {'identifier': 'mprls_imu_node', 'progress': 'cmake'}
+[0.073426] (mprls_imu_node) JobProgress: {'identifier': 'mprls_imu_node', 'progress': 'build'}
+[0.076159] (mprls_imu_node) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/bmes-endoscope-25/temp_ws/build/mprls_imu_node', '--', '-j4', '-l4'], 'cwd': '/home/bmes-endoscope-25/temp_ws/build/mprls_imu_node', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'bmes-endoscope-25', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/bmes-endoscope-25', 'OLDPWD': '/home/bmes-endoscope-25/temp_ws/src/mprls_imu_node', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1576', 'SYSTEMD_EXEC_PID': '2043', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3668', 'GNOME_KEYRING_CONTROL': '/run/user/1002/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/bmes-endoscope-25/temp_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'bmes-endoscope-25', 'JOURNAL_STREAM': '8:18050', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1002.slice/user@1002.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'bmes-endoscope-25', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/bmesendoscope25-desktop:@/tmp/.ICE-unix/1757,unix/bmesendoscope25-desktop:/tmp/.ICE-unix/1757', 'INVOCATION_ID': 'de063e3ff28b4349b749cf907f89e05d', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1002', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'C.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1002/.mutter-Xwaylandauth.A2O2S2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1002/keyring/ssh', 'ROS_DOMAIN_ID': '1', 'AMENT_PREFIX_PATH': '/home/bmes-endoscope-25/temp_ws/install/mprls_imu_node:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:511f7dfa-a2cd-46e4-97be-ce2a5d1883c1', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/bmes-endoscope-25/temp_ws/build/mprls_imu_node', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/bmes-endoscope-25/temp_ws/install/mprls_imu_node:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.099261] (-) TimerEvent: {}
+[0.199959] (-) TimerEvent: {}
+[0.231262] (mprls_imu_node) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.300139] (-) TimerEvent: {}
+[0.400696] (-) TimerEvent: {}
+[0.501345] (-) TimerEvent: {}
+[0.602089] (-) TimerEvent: {}
+[0.702879] (-) TimerEvent: {}
+[0.803859] (-) TimerEvent: {}
+[0.904467] (-) TimerEvent: {}
+[1.005122] (-) TimerEvent: {}
+[1.105764] (-) TimerEvent: {}
+[1.206442] (-) TimerEvent: {}
+[1.307181] (-) TimerEvent: {}
+[1.395095] (mprls_imu_node) StdoutLine: {'line': b'-- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[1.407358] (-) TimerEvent: {}
+[1.508014] (-) TimerEvent: {}
+[1.572063] (mprls_imu_node) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[1.608164] (-) TimerEvent: {}
+[1.612162] (mprls_imu_node) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[1.667020] (mprls_imu_node) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.708336] (-) TimerEvent: {}
+[1.732774] (mprls_imu_node) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.808551] (-) TimerEvent: {}
+[1.909269] (-) TimerEvent: {}
+[1.991119] (mprls_imu_node) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[1.997006] (mprls_imu_node) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.009429] (-) TimerEvent: {}
+[2.110121] (-) TimerEvent: {}
+[2.210854] (-) TimerEvent: {}
+[2.311603] (mprls_imu_node) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.312252] (-) TimerEvent: {}
+[2.412787] (-) TimerEvent: {}
+[2.513523] (-) TimerEvent: {}
+[2.571208] (mprls_imu_node) StdoutLine: {'line': b'-- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[2.613699] (-) TimerEvent: {}
+[2.621697] (mprls_imu_node) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[2.667251] (mprls_imu_node) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[2.713948] (-) TimerEvent: {}
+[2.814795] (-) TimerEvent: {}
+[2.915665] (-) TimerEvent: {}
+[3.016459] (-) TimerEvent: {}
+[3.117474] (-) TimerEvent: {}
+[3.218110] (-) TimerEvent: {}
+[3.318688] (-) TimerEvent: {}
+[3.419441] (-) TimerEvent: {}
+[3.520216] (-) TimerEvent: {}
+[3.620840] (-) TimerEvent: {}
+[3.721715] (-) TimerEvent: {}
+[3.822785] (-) TimerEvent: {}
+[3.923441] (-) TimerEvent: {}
+[4.024091] (-) TimerEvent: {}
+[4.124766] (-) TimerEvent: {}
+[4.225766] (-) TimerEvent: {}
+[4.326626] (-) TimerEvent: {}
+[4.427430] (-) TimerEvent: {}
+[4.528132] (-) TimerEvent: {}
+[4.629120] (-) TimerEvent: {}
+[4.729697] (-) TimerEvent: {}
+[4.830512] (-) TimerEvent: {}
+[4.931219] (-) TimerEvent: {}
+[5.031935] (-) TimerEvent: {}
+[5.132551] (-) TimerEvent: {}
+[5.233146] (-) TimerEvent: {}
+[5.333820] (-) TimerEvent: {}
+[5.434569] (-) TimerEvent: {}
+[5.535398] (-) TimerEvent: {}
+[5.636381] (-) TimerEvent: {}
+[5.731157] (mprls_imu_node) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[5.736509] (-) TimerEvent: {}
+[5.837129] (-) TimerEvent: {}
+[5.937753] (-) TimerEvent: {}
+[6.038448] (-) TimerEvent: {}
+[6.139150] (-) TimerEvent: {}
+[6.239809] (-) TimerEvent: {}
+[6.340536] (-) TimerEvent: {}
+[6.441437] (-) TimerEvent: {}
+[6.542088] (-) TimerEvent: {}
+[6.642729] (-) TimerEvent: {}
+[6.743538] (-) TimerEvent: {}
+[6.844223] (-) TimerEvent: {}
+[6.944946] (-) TimerEvent: {}
+[7.045607] (-) TimerEvent: {}
+[7.146266] (-) TimerEvent: {}
+[7.246867] (-) TimerEvent: {}
+[7.347538] (-) TimerEvent: {}
+[7.448264] (-) TimerEvent: {}
+[7.548897] (-) TimerEvent: {}
+[7.649575] (-) TimerEvent: {}
+[7.750413] (-) TimerEvent: {}
+[7.851309] (-) TimerEvent: {}
+[7.952062] (-) TimerEvent: {}
+[8.052794] (-) TimerEvent: {}
+[8.153540] (-) TimerEvent: {}
+[8.254263] (-) TimerEvent: {}
+[8.355278] (-) TimerEvent: {}
+[8.456124] (-) TimerEvent: {}
+[8.556728] (-) TimerEvent: {}
+[8.657409] (-) TimerEvent: {}
+[8.758067] (-) TimerEvent: {}
+[8.858691] (-) TimerEvent: {}
+[8.959394] (-) TimerEvent: {}
+[9.059957] (-) TimerEvent: {}
+[9.160653] (-) TimerEvent: {}
+[9.261452] (-) TimerEvent: {}
+[9.362226] (-) TimerEvent: {}
+[9.463025] (-) TimerEvent: {}
+[9.563963] (-) TimerEvent: {}
+[9.626525] (mprls_imu_node) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[9.664164] (-) TimerEvent: {}
+[9.764827] (-) TimerEvent: {}
+[9.865589] (-) TimerEvent: {}
+[9.966551] (-) TimerEvent: {}
+[10.067227] (-) TimerEvent: {}
+[10.167813] (-) TimerEvent: {}
+[10.268461] (-) TimerEvent: {}
+[10.369087] (-) TimerEvent: {}
+[10.469762] (-) TimerEvent: {}
+[10.570410] (-) TimerEvent: {}
+[10.671024] (-) TimerEvent: {}
+[10.771709] (-) TimerEvent: {}
+[10.872486] (-) TimerEvent: {}
+[10.973250] (-) TimerEvent: {}
+[11.074285] (-) TimerEvent: {}
+[11.129147] (mprls_imu_node) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[11.160453] (mprls_imu_node) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[11.174483] (-) TimerEvent: {}
+[11.275218] (-) TimerEvent: {}
+[11.376422] (-) TimerEvent: {}
+[11.477502] (-) TimerEvent: {}
+[11.578134] (-) TimerEvent: {}
+[11.678705] (-) TimerEvent: {}
+[11.779378] (-) TimerEvent: {}
+[11.880124] (-) TimerEvent: {}
+[11.900206] (mprls_imu_node) StdoutLine: {'line': b'-- Found PythonExtra: /usr/bin/python3  \n'}
+[11.980321] (-) TimerEvent: {}
+[12.080904] (-) TimerEvent: {}
+[12.181544] (-) TimerEvent: {}
+[12.282292] (-) TimerEvent: {}
+[12.383057] (-) TimerEvent: {}
+[12.483881] (-) TimerEvent: {}
+[12.584695] (-) TimerEvent: {}
+[12.685333] (-) TimerEvent: {}
+[12.786004] (-) TimerEvent: {}
+[12.886717] (-) TimerEvent: {}
+[12.987705] (-) TimerEvent: {}
+[13.088738] (-) TimerEvent: {}
+[13.189409] (-) TimerEvent: {}
+[13.290097] (-) TimerEvent: {}
+[13.390732] (-) TimerEvent: {}
+[13.491462] (-) TimerEvent: {}
+[13.592469] (-) TimerEvent: {}
+[13.693201] (-) TimerEvent: {}
+[13.794439] (-) TimerEvent: {}
+[13.895058] (-) TimerEvent: {}
+[13.995632] (-) TimerEvent: {}
+[14.096216] (-) TimerEvent: {}
+[14.196911] (-) TimerEvent: {}
+[14.268251] (mprls_imu_node) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[14.297127] (-) TimerEvent: {}
+[14.397877] (-) TimerEvent: {}
+[14.448633] (mprls_imu_node) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):\n'}
+[14.449383] (mprls_imu_node) StderrLine: {'line': b'  Use rosidl_get_typesupport_target() and target_link_libraries() instead of\n'}
+[14.449765] (mprls_imu_node) StderrLine: {'line': b'  rosidl_target_interfaces().  i.e:\n'}
+[14.450258] (mprls_imu_node) StderrLine: {'line': b'\n'}
+[14.450655] (mprls_imu_node) StderrLine: {'line': b'    rosidl_get_typesupport_target(cpp_typesupport_target "${PROJECT_NAME}" "rosidl_typesupport_cpp")\n'}
+[14.450963] (mprls_imu_node) StderrLine: {'line': b'    target_link_libraries(${PROJECT_NAME}_node "${cpp_typesupport_target}")\n'}
+[14.451370] (mprls_imu_node) StderrLine: {'line': b'\n'}
+[14.451683] (mprls_imu_node) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[14.452007] (mprls_imu_node) StderrLine: {'line': b'  CMakeLists.txt:49 (rosidl_target_interfaces)\n'}
+[14.452364] (mprls_imu_node) StderrLine: {'line': b'\n'}
+[14.452675] (mprls_imu_node) StderrLine: {'line': b'\x1b[0m\n'}
+[14.453010] (mprls_imu_node) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[14.498063] (-) TimerEvent: {}
+[14.516380] (mprls_imu_node) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[14.521407] (mprls_imu_node) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/bmes-endoscope-25/temp_ws/src/mprls_imu_node/include;$<BUILD_INTERFACE:/home/bmes-endoscope-25/temp_ws/src/mprls_imu_node/include>\n'}
+[14.522400] (mprls_imu_node) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[14.527763] (mprls_imu_node) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[14.537127] (mprls_imu_node) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[14.537752] (mprls_imu_node) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[14.539597] (mprls_imu_node) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[14.553712] (mprls_imu_node) StdoutLine: {'line': b'-- Configuring done (14.4s)\n'}
+[14.598337] (-) TimerEvent: {}
+[14.699090] (-) TimerEvent: {}
+[14.799699] (-) TimerEvent: {}
+[14.824824] (mprls_imu_node) StdoutLine: {'line': b'-- Generating done (0.2s)\n'}
+[14.887085] (mprls_imu_node) StdoutLine: {'line': b'-- Build files have been written to: /home/bmes-endoscope-25/temp_ws/build/mprls_imu_node\n'}
+[14.900034] (-) TimerEvent: {}
+[15.001195] (-) TimerEvent: {}
+[15.109156] (-) TimerEvent: {}
+[15.185519] (mprls_imu_node) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding CXX object CMakeFiles/sensor_drivers.dir/src/Adafruit_MPRLS.cpp.o\x1b[0m\n'}
+[15.186489] (mprls_imu_node) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[15.198608] (mprls_imu_node) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding CXX object CMakeFiles/test_tca.dir/src/TCA9548A.cpp.o\x1b[0m\n'}
+[15.209428] (-) TimerEvent: {}
+[15.230718] (mprls_imu_node) StdoutLine: {'line': b'[  7%] Built target ament_cmake_python_copy_mprls_imu_node\n'}
+[15.312174] (-) TimerEvent: {}
+[15.322285] (mprls_imu_node) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding CXX object CMakeFiles/test_tca.dir/src/test_TCA.cpp.o\x1b[0m\n'}
+[15.412608] (-) TimerEvent: {}
+[15.515581] (-) TimerEvent: {}
+[15.620180] (-) TimerEvent: {}
+[15.721142] (-) TimerEvent: {}
+[15.737605] (mprls_imu_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/bmes-endoscope-25/temp_ws/src/mprls_imu_node/src/Adafruit_MPRLS.cpp:2:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kfnctl.h: No such file or directory\n'}
+[15.738623] (mprls_imu_node) StderrLine: {'line': b'    2 | #include \x1b[01;31m\x1b[K<fnctl.h>\x1b[m\x1b[K\n'}
+[15.739678] (mprls_imu_node) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[15.742841] (mprls_imu_node) StderrLine: {'line': b'compilation terminated.\n'}
+[15.750651] (mprls_imu_node) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/sensor_drivers.dir/build.make:76: CMakeFiles/sensor_drivers.dir/src/Adafruit_MPRLS.cpp.o] Error 1\n'}
+[15.755580] (mprls_imu_node) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:627: CMakeFiles/sensor_drivers.dir/all] Error 2\n'}
+[15.762815] (mprls_imu_node) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[15.824533] (-) TimerEvent: {}
+[15.926212] (-) TimerEvent: {}
+[16.027286] (-) TimerEvent: {}
+[16.131493] (-) TimerEvent: {}
+[16.232498] (-) TimerEvent: {}
+[16.333345] (-) TimerEvent: {}
+[16.437597] (-) TimerEvent: {}
+[16.542697] (-) TimerEvent: {}
+[16.617893] (mprls_imu_node) StdoutLine: {'line': b'[  9%] Built target mprls_imu_node__rosidl_generator_type_description\n'}
+[16.642866] (-) TimerEvent: {}
+[16.743772] (-) TimerEvent: {}
+[16.844577] (-) TimerEvent: {}
+[16.945516] (-) TimerEvent: {}
+[17.046426] (-) TimerEvent: {}
+[17.147362] (-) TimerEvent: {}
+[17.248235] (-) TimerEvent: {}
+[17.349095] (-) TimerEvent: {}
+[17.449837] (-) TimerEvent: {}
+[17.550573] (-) TimerEvent: {}
+[17.586865] (mprls_imu_node) StdoutLine: {'line': b'[ 11%] \x1b[32m\x1b[1mLinking CXX executable test_tca\x1b[0m\n'}
+[17.650763] (-) TimerEvent: {}
+[17.751504] (-) TimerEvent: {}
+[17.852421] (-) TimerEvent: {}
+[17.953231] (-) TimerEvent: {}
+[17.993069] (mprls_imu_node) StdoutLine: {'line': b'[ 11%] Built target test_tca\n'}
+[17.998790] (mprls_imu_node) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[18.008065] (mprls_imu_node) CommandEnded: {'returncode': 2}
+[18.053362] (-) TimerEvent: {}
+[18.059619] (mprls_imu_node) JobEnded: {'identifier': 'mprls_imu_node', 'rc': 2}
+[18.075106] (-) EventReactorShutdown: {}

@@ -1,0 +1,165 @@
+[0.096s] Invoking command in '/home/bmes-endoscope-25/temp_ws/build/mprls_imu_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/bmes-endoscope-25/temp_ws/build/mprls_imu_node -- -j4 -l4
+[0.496s] [  2%] Built target mprls_imu_node__rosidl_generator_type_description
+[0.508s] [  9%] Built target test_tca
+[0.525s] [ 11%] [32mBuilding CXX object CMakeFiles/sensor_drivers.dir/src/Adafruit_MPRLS.cpp.o[0m
+[0.595s] [ 11%] Built target ament_cmake_python_copy_mprls_imu_node
+[0.689s] [ 14%] Built target mprls_imu_node__cpp
+[0.733s] [ 26%] Built target mprls_imu_node__rosidl_generator_c
+[0.898s] [ 33%] Built target mprls_imu_node__rosidl_typesupport_cpp
+[0.904s] [ 40%] Built target mprls_imu_node__rosidl_typesupport_fastrtps_c
+[1.110s] [ 47%] Built target mprls_imu_node__rosidl_typesupport_introspection_c
+[1.124s] [ 54%] Built target mprls_imu_node__rosidl_typesupport_fastrtps_cpp
+[1.300s] [ 61%] Built target mprls_imu_node__rosidl_typesupport_c
+[1.331s] [ 69%] Built target mprls_imu_node__rosidl_typesupport_introspection_cpp
+[1.501s] [ 69%] Built target mprls_imu_node
+[1.668s] [ 71%] Built target mprls_imu_node__py
+[1.837s] [ 76%] Built target mprls_imu_node__rosidl_generator_py
+[2.062s] [ 80%] Built target mprls_imu_node_s__rosidl_typesupport_fastrtps_c
+[2.094s] [ 85%] Built target mprls_imu_node_s__rosidl_typesupport_introspection_c
+[2.240s] [ 90%] Built target mprls_imu_node_s__rosidl_typesupport_c
+[2.518s] running egg_info
+[2.700s] writing mprls_imu_node.egg-info/PKG-INFO
+[2.702s] writing dependency_links to mprls_imu_node.egg-info/dependency_links.txt
+[2.705s] writing top-level names to mprls_imu_node.egg-info/top_level.txt
+[3.174s] reading manifest file 'mprls_imu_node.egg-info/SOURCES.txt'
+[3.179s] writing manifest file 'mprls_imu_node.egg-info/SOURCES.txt'
+[3.342s] [ 92%] [32m[1mLinking CXX shared library libsensor_drivers.so[0m
+[3.379s] [ 92%] Built target ament_cmake_python_build_mprls_imu_node_egg
+[3.867s] [ 95%] Built target sensor_drivers
+[4.017s] [ 97%] [32mBuilding CXX object CMakeFiles/test_mprls_node.dir/src/test_mprls_publisher.cpp.o[0m
+[26.086s] [100%] [32m[1mLinking CXX executable test_mprls_node[0m
+[27.408s] [100%] Built target test_mprls_node
+[27.500s] Invoked command in '/home/bmes-endoscope-25/temp_ws/build/mprls_imu_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/bmes-endoscope-25/temp_ws/build/mprls_imu_node -- -j4 -l4
+[27.565s] Invoking command in '/home/bmes-endoscope-25/temp_ws/build/mprls_imu_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/bmes-endoscope-25/temp_ws/build/mprls_imu_node
+[27.611s] -- Install configuration: ""
+[27.612s] -- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/share/ament_index/resource_index/rosidl_interfaces/mprls_imu_node
+[27.613s] -- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/share/mprls_imu_node/msg/MPRLSPressures.json
+[27.613s] -- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/include/mprls_imu_node/mprls_imu_node
+[27.614s] -- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/include/mprls_imu_node/mprls_imu_node/msg
+[27.615s] -- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/include/mprls_imu_node/mprls_imu_node/msg/mprls_pressures.h
+[27.615s] -- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/include/mprls_imu_node/mprls_imu_node/msg/detail
+[27.616s] -- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/include/mprls_imu_node/mprls_imu_node/msg/detail/mprls_pressures__struct.h
+[27.616s] -- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/include/mprls_imu_node/mprls_imu_node/msg/detail/mprls_pressures__type_support.c
+[27.617s] -- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/include/mprls_imu_node/mprls_imu_node/msg/detail/mprls_pressures__functions.c
+[27.618s] -- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/include/mprls_imu_node/mprls_imu_node/msg/detail/mprls_pressures__functions.h
+[27.619s] -- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/include/mprls_imu_node/mprls_imu_node/msg/detail/mprls_pressures__description.c
+[27.620s] -- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/include/mprls_imu_node/mprls_imu_node/msg/detail/mprls_pressures__type_support.h
+[27.620s] -- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/include/mprls_imu_node/mprls_imu_node/msg/rosidl_generator_c__visibility_control.h
+[27.621s] -- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/share/mprls_imu_node/environment/library_path.sh
+[27.622s] -- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/share/mprls_imu_node/environment/library_path.dsv
+[27.623s] -- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/lib/libmprls_imu_node__rosidl_generator_c.so
+[27.623s] -- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/include/mprls_imu_node/mprls_imu_node
+[27.624s] -- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/include/mprls_imu_node/mprls_imu_node/msg
+[27.625s] -- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/include/mprls_imu_node/mprls_imu_node/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[27.626s] -- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/include/mprls_imu_node/mprls_imu_node/msg/detail
+[27.626s] -- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/include/mprls_imu_node/mprls_imu_node/msg/detail/mprls_pressures__rosidl_typesupport_fastrtps_c.h
+[27.627s] -- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/lib/libmprls_imu_node__rosidl_typesupport_fastrtps_c.so
+[27.628s] -- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/include/mprls_imu_node/mprls_imu_node
+[27.628s] -- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/include/mprls_imu_node/mprls_imu_node/msg
+[27.629s] -- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/include/mprls_imu_node/mprls_imu_node/msg/rosidl_generator_cpp__visibility_control.hpp
+[27.629s] -- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/include/mprls_imu_node/mprls_imu_node/msg/detail
+[27.629s] -- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/include/mprls_imu_node/mprls_imu_node/msg/detail/mprls_pressures__struct.hpp
+[27.629s] -- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/include/mprls_imu_node/mprls_imu_node/msg/detail/mprls_pressures__type_support.hpp
+[27.630s] -- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/include/mprls_imu_node/mprls_imu_node/msg/detail/mprls_pressures__builder.hpp
+[27.631s] -- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/include/mprls_imu_node/mprls_imu_node/msg/detail/mprls_pressures__traits.hpp
+[27.632s] -- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/include/mprls_imu_node/mprls_imu_node/msg/mprls_pressures.hpp
+[27.632s] -- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/include/mprls_imu_node/mprls_imu_node
+[27.633s] -- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/include/mprls_imu_node/mprls_imu_node/msg
+[27.634s] -- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/include/mprls_imu_node/mprls_imu_node/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[27.634s] -- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/include/mprls_imu_node/mprls_imu_node/msg/detail
+[27.635s] -- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/include/mprls_imu_node/mprls_imu_node/msg/detail/dds_fastrtps
+[27.635s] -- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/include/mprls_imu_node/mprls_imu_node/msg/detail/mprls_pressures__rosidl_typesupport_fastrtps_cpp.hpp
+[27.636s] -- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/lib/libmprls_imu_node__rosidl_typesupport_fastrtps_cpp.so
+[27.636s] -- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/include/mprls_imu_node/mprls_imu_node
+[27.637s] -- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/include/mprls_imu_node/mprls_imu_node/msg
+[27.638s] -- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/include/mprls_imu_node/mprls_imu_node/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[27.638s] -- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/include/mprls_imu_node/mprls_imu_node/msg/detail
+[27.639s] -- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/include/mprls_imu_node/mprls_imu_node/msg/detail/mprls_pressures__type_support.c
+[27.639s] -- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/include/mprls_imu_node/mprls_imu_node/msg/detail/mprls_pressures__rosidl_typesupport_introspection_c.h
+[27.640s] -- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/lib/libmprls_imu_node__rosidl_typesupport_introspection_c.so
+[27.641s] -- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/lib/libmprls_imu_node__rosidl_typesupport_c.so
+[27.642s] -- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/include/mprls_imu_node/mprls_imu_node
+[27.643s] -- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/include/mprls_imu_node/mprls_imu_node/msg
+[27.643s] -- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/include/mprls_imu_node/mprls_imu_node/msg/detail
+[27.644s] -- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/include/mprls_imu_node/mprls_imu_node/msg/detail/mprls_pressures__type_support.cpp
+[27.646s] -- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/include/mprls_imu_node/mprls_imu_node/msg/detail/mprls_pressures__rosidl_typesupport_introspection_cpp.hpp
+[27.651s] -- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/lib/libmprls_imu_node__rosidl_typesupport_introspection_cpp.so
+[27.652s] -- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/lib/libmprls_imu_node__rosidl_typesupport_cpp.so
+[27.653s] -- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/share/mprls_imu_node/environment/pythonpath.sh
+[27.654s] -- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/share/mprls_imu_node/environment/pythonpath.dsv
+[27.656s] -- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/lib/python3.12/site-packages/mprls_imu_node-0.0.0-py3.12.egg-info
+[27.657s] -- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/lib/python3.12/site-packages/mprls_imu_node-0.0.0-py3.12.egg-info/SOURCES.txt
+[27.657s] -- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/lib/python3.12/site-packages/mprls_imu_node-0.0.0-py3.12.egg-info/top_level.txt
+[27.660s] -- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/lib/python3.12/site-packages/mprls_imu_node-0.0.0-py3.12.egg-info/PKG-INFO
+[27.663s] -- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/lib/python3.12/site-packages/mprls_imu_node-0.0.0-py3.12.egg-info/dependency_links.txt
+[27.665s] -- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/lib/python3.12/site-packages/mprls_imu_node
+[27.666s] -- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/lib/python3.12/site-packages/mprls_imu_node/__init__.py
+[27.667s] -- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/lib/python3.12/site-packages/mprls_imu_node/msg
+[27.668s] -- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/lib/python3.12/site-packages/mprls_imu_node/msg/__init__.py
+[27.670s] -- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/lib/python3.12/site-packages/mprls_imu_node/msg/_mprls_pressures.py
+[27.675s] -- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/lib/python3.12/site-packages/mprls_imu_node/msg/_mprls_pressures_s.c
+[27.678s] -- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/lib/python3.12/site-packages/mprls_imu_node/_mprls_imu_node_s.ep.rosidl_typesupport_introspection_c.c
+[27.680s] -- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/lib/python3.12/site-packages/mprls_imu_node/mprls_imu_node_s__rosidl_typesupport_fastrtps_c.so
+[27.682s] -- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/lib/python3.12/site-packages/mprls_imu_node/mprls_imu_node_s__rosidl_typesupport_introspection_c.so
+[27.683s] -- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/lib/python3.12/site-packages/mprls_imu_node/_mprls_imu_node_s.ep.rosidl_typesupport_fastrtps_c.c
+[27.684s] -- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/lib/python3.12/site-packages/mprls_imu_node/_mprls_imu_node_s.ep.rosidl_typesupport_c.c
+[27.686s] -- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/lib/python3.12/site-packages/mprls_imu_node/mprls_imu_node_s__rosidl_typesupport_c.so
+[27.873s] Listing '/home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/lib/python3.12/site-packages/mprls_imu_node'...
+[27.874s] Listing '/home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/lib/python3.12/site-packages/mprls_imu_node/msg'...
+[27.906s] -- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/lib/python3.12/site-packages/mprls_imu_node/mprls_imu_node_s__rosidl_typesupport_fastrtps_c.so
+[27.909s] -- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/lib/python3.12/site-packages/mprls_imu_node/mprls_imu_node_s__rosidl_typesupport_introspection_c.so
+[27.912s] -- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/lib/python3.12/site-packages/mprls_imu_node/mprls_imu_node_s__rosidl_typesupport_c.so
+[27.915s] -- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/lib/libmprls_imu_node__rosidl_generator_py.so
+[27.916s] -- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/share/mprls_imu_node/msg/MPRLSPressures.idl
+[27.917s] -- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/share/mprls_imu_node/msg/MPRLSPressures.msg
+[27.918s] -- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/lib/mprls_imu_node/libsensor_drivers.so
+[27.923s] -- Set non-toolchain portion of runtime path of "/home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/lib/mprls_imu_node/libsensor_drivers.so" to ""
+[27.928s] -- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/lib/mprls_imu_node/test_mprls_node
+[27.947s] -- Set non-toolchain portion of runtime path of "/home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/lib/mprls_imu_node/test_mprls_node" to ""
+[27.948s] -- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/include
+[27.949s] -- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/include/mprls_imu_node
+[27.951s] -- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/include/mprls_imu_node/Adafruit_MPRLS.hpp
+[27.952s] -- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/include/mprls_imu_node/TCA9548A.hpp
+[27.954s] -- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/share/mprls_imu_node/msg
+[27.955s] -- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/share/mprls_imu_node/msg/MPRLSPressures.msg
+[27.957s] -- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/lib/mprls_imu_node/test_tca
+[27.959s] -- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/share/ament_index/resource_index/package_run_dependencies/mprls_imu_node
+[27.960s] -- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/share/ament_index/resource_index/parent_prefix_path/mprls_imu_node
+[27.962s] -- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/share/mprls_imu_node/environment/ament_prefix_path.sh
+[27.964s] -- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/share/mprls_imu_node/environment/ament_prefix_path.dsv
+[27.965s] -- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/share/mprls_imu_node/environment/path.sh
+[27.966s] -- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/share/mprls_imu_node/environment/path.dsv
+[27.968s] -- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/share/mprls_imu_node/local_setup.bash
+[27.971s] -- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/share/mprls_imu_node/local_setup.sh
+[27.975s] -- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/share/mprls_imu_node/local_setup.zsh
+[27.978s] -- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/share/mprls_imu_node/local_setup.dsv
+[27.981s] -- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/share/mprls_imu_node/package.dsv
+[27.983s] -- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/share/ament_index/resource_index/packages/mprls_imu_node
+[27.985s] -- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/share/mprls_imu_node/cmake/export_mprls_imu_node__rosidl_generator_cExport.cmake
+[27.986s] -- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/share/mprls_imu_node/cmake/export_mprls_imu_node__rosidl_generator_cExport-noconfig.cmake
+[27.988s] -- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/share/mprls_imu_node/cmake/export_mprls_imu_node__rosidl_typesupport_fastrtps_cExport.cmake
+[27.990s] -- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/share/mprls_imu_node/cmake/export_mprls_imu_node__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[27.991s] -- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/share/mprls_imu_node/cmake/export_mprls_imu_node__rosidl_generator_cppExport.cmake
+[27.992s] -- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/share/mprls_imu_node/cmake/export_mprls_imu_node__rosidl_typesupport_fastrtps_cppExport.cmake
+[27.993s] -- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/share/mprls_imu_node/cmake/export_mprls_imu_node__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[27.994s] -- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/share/mprls_imu_node/cmake/mprls_imu_node__rosidl_typesupport_introspection_cExport.cmake
+[27.996s] -- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/share/mprls_imu_node/cmake/mprls_imu_node__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[27.996s] -- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/share/mprls_imu_node/cmake/mprls_imu_node__rosidl_typesupport_cExport.cmake
+[27.997s] -- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/share/mprls_imu_node/cmake/mprls_imu_node__rosidl_typesupport_cExport-noconfig.cmake
+[27.998s] -- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/share/mprls_imu_node/cmake/mprls_imu_node__rosidl_typesupport_introspection_cppExport.cmake
+[27.999s] -- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/share/mprls_imu_node/cmake/mprls_imu_node__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[28.000s] -- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/share/mprls_imu_node/cmake/mprls_imu_node__rosidl_typesupport_cppExport.cmake
+[28.003s] -- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/share/mprls_imu_node/cmake/mprls_imu_node__rosidl_typesupport_cppExport-noconfig.cmake
+[28.005s] -- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/share/mprls_imu_node/cmake/export_mprls_imu_node__rosidl_generator_pyExport.cmake
+[28.006s] -- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/share/mprls_imu_node/cmake/export_mprls_imu_node__rosidl_generator_pyExport-noconfig.cmake
+[28.007s] -- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/share/mprls_imu_node/cmake/rosidl_cmake-extras.cmake
+[28.007s] -- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/share/mprls_imu_node/cmake/ament_cmake_export_include_directories-extras.cmake
+[28.010s] -- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/share/mprls_imu_node/cmake/ament_cmake_export_libraries-extras.cmake
+[28.014s] -- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/share/mprls_imu_node/cmake/ament_cmake_export_targets-extras.cmake
+[28.014s] -- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/share/mprls_imu_node/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[28.014s] -- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/share/mprls_imu_node/cmake/ament_cmake_export_dependencies-extras.cmake
+[28.015s] -- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/share/mprls_imu_node/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[28.015s] -- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/share/mprls_imu_node/cmake/mprls_imu_nodeConfig.cmake
+[28.016s] -- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/share/mprls_imu_node/cmake/mprls_imu_nodeConfig-version.cmake
+[28.016s] -- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/share/mprls_imu_node/package.xml
+[28.017s] Invoked command in '/home/bmes-endoscope-25/temp_ws/build/mprls_imu_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/bmes-endoscope-25/temp_ws/build/mprls_imu_node

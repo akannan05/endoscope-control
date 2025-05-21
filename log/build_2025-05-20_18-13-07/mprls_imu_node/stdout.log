@@ -1,0 +1,19 @@
+[ 33%] [32mBuilding CXX object CMakeFiles/test_tca.dir/src/test_TCA.cpp.o[0m
+[ 66%] [32m[1mLinking CXX executable test_tca[0m
+[100%] Built target test_tca
+-- Install configuration: ""
+-- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/share/ament_index/resource_index/package_run_dependencies/mprls_imu_node
+-- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/share/ament_index/resource_index/parent_prefix_path/mprls_imu_node
+-- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/share/mprls_imu_node/environment/ament_prefix_path.sh
+-- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/share/mprls_imu_node/environment/ament_prefix_path.dsv
+-- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/share/mprls_imu_node/environment/path.sh
+-- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/share/mprls_imu_node/environment/path.dsv
+-- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/share/mprls_imu_node/local_setup.bash
+-- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/share/mprls_imu_node/local_setup.sh
+-- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/share/mprls_imu_node/local_setup.zsh
+-- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/share/mprls_imu_node/local_setup.dsv
+-- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/share/mprls_imu_node/package.dsv
+-- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/share/ament_index/resource_index/packages/mprls_imu_node
+-- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/share/mprls_imu_node/cmake/mprls_imu_nodeConfig.cmake
+-- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/share/mprls_imu_node/cmake/mprls_imu_nodeConfig-version.cmake
+-- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/share/mprls_imu_node/package.xml

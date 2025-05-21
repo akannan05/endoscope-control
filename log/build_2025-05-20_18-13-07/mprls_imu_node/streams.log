@@ -1,0 +1,23 @@
+[0.082s] Invoking command in '/home/bmes-endoscope-25/temp_ws/build/mprls_imu_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/bmes-endoscope-25/temp_ws/build/mprls_imu_node -- -j4 -l4
+[0.420s] [ 33%] [32mBuilding CXX object CMakeFiles/test_tca.dir/src/test_TCA.cpp.o[0m
+[2.045s] [ 66%] [32m[1mLinking CXX executable test_tca[0m
+[2.450s] [100%] Built target test_tca
+[2.507s] Invoked command in '/home/bmes-endoscope-25/temp_ws/build/mprls_imu_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/bmes-endoscope-25/temp_ws/build/mprls_imu_node -- -j4 -l4
+[2.570s] Invoking command in '/home/bmes-endoscope-25/temp_ws/build/mprls_imu_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/bmes-endoscope-25/temp_ws/build/mprls_imu_node
+[2.613s] -- Install configuration: ""
+[2.614s] -- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/share/ament_index/resource_index/package_run_dependencies/mprls_imu_node
+[2.616s] -- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/share/ament_index/resource_index/parent_prefix_path/mprls_imu_node
+[2.618s] -- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/share/mprls_imu_node/environment/ament_prefix_path.sh
+[2.619s] -- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/share/mprls_imu_node/environment/ament_prefix_path.dsv
+[2.620s] -- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/share/mprls_imu_node/environment/path.sh
+[2.622s] -- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/share/mprls_imu_node/environment/path.dsv
+[2.623s] -- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/share/mprls_imu_node/local_setup.bash
+[2.625s] -- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/share/mprls_imu_node/local_setup.sh
+[2.626s] -- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/share/mprls_imu_node/local_setup.zsh
+[2.630s] -- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/share/mprls_imu_node/local_setup.dsv
+[2.633s] -- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/share/mprls_imu_node/package.dsv
+[2.637s] -- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/share/ament_index/resource_index/packages/mprls_imu_node
+[2.639s] -- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/share/mprls_imu_node/cmake/mprls_imu_nodeConfig.cmake
+[2.641s] -- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/share/mprls_imu_node/cmake/mprls_imu_nodeConfig-version.cmake
+[2.643s] -- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/share/mprls_imu_node/package.xml
+[2.650s] Invoked command in '/home/bmes-endoscope-25/temp_ws/build/mprls_imu_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/bmes-endoscope-25/temp_ws/build/mprls_imu_node

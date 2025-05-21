@@ -1,0 +1,6 @@
+{
+  "package_name": "mprls_imu_node",
+  "non_idl_tuples": [
+    "/home/bmes-endoscope-25/temp_ws/endoscope-control/src/mprls_imu_node:msg/MPRLSPressures.msg"
+  ]
+}

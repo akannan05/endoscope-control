@@ -1,0 +1,55 @@
+[0.093s] Invoking command in '/home/bmes-endoscope-25/temp_ws/build/mprls_imu_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/bmes-endoscope-25/temp_ws/build/mprls_imu_node -- -j4 -l4
+[0.437s] [  2%] Built target mprls_imu_node__rosidl_generator_type_description
+[0.449s] [  4%] [32mBuilding CXX object CMakeFiles/sensor_drivers.dir/src/Adafruit_MPRLS.cpp.o[0m
+[0.478s] [ 11%] Built target test_tca
+[0.553s] [ 14%] [32mBuilding CXX object CMakeFiles/sensor_drivers.dir/src/TCA9548A.cpp.o[0m
+[0.581s] [ 14%] Built target ament_cmake_python_copy_mprls_imu_node
+[0.599s] [ 16%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[0.686s] [ 19%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.510s] [ 19%] Built target mprls_imu_node__cpp
+[2.565s] In file included from [01m[K/home/bmes-endoscope-25/temp_ws/src/mprls_imu_node/src/Adafruit_MPRLS.cpp:1[m[K:
+[2.570s] [01m[K/home/bmes-endoscope-25/temp_ws/src/mprls_imu_node/include/mprls_imu_node/Adafruit_MPRLS.hpp:18:32:[m[K [01;35m[Kwarning: [m[Kconversion from ‘[01m[Klong unsigned int[m[K’ to ‘[01m[Kuint8_t[m[K’ {aka ‘[01m[Kunsigned char[m[K’} changes value from ‘[01m[K16777216[m[K’ to ‘[01m[K0[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Woverflow-Woverflow]8;;[m[K]
+[2.577s]    18 | constexpr uint8_t COUNTS_224 = [01;35m[K16777216UL[m[K;
+[2.578s]       |                                [01;35m[K^~~~~~~~~~[m[K
+[3.000s] [ 21%] [32mBuilding C object CMakeFiles/mprls_imu_node__rosidl_generator_c.dir/rosidl_generator_c/mprls_imu_node/msg/detail/mprls_pressures__description.c.o[0m
+[3.226s] [01m[K/home/bmes-endoscope-25/temp_ws/src/mprls_imu_node/src/Adafruit_MPRLS.cpp:12:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kaddress[m[K’ has not been declared
+[3.227s]    12 | MPRLS::MPRLS(int bus, uint8_t, [01;31m[Kaddress[m[K, uint16_t psi_min, uint16_t psi_max,
+[3.228s]       |                                [01;31m[K^~~~~~~[m[K
+[3.229s] [01m[K/home/bmes-endoscope-25/temp_ws/src/mprls_imu_node/src/Adafruit_MPRLS.cpp:12:1:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[KMPRLS::[01;32m[KMPRLS[m[K(int, uint8_t, int, uint16_t, uint16_t, float, float, float)[m[K’
+[3.229s]    12 | [01;31m[KMPRLS[m[K::MPRLS(int bus, uint8_t, address, uint16_t psi_min, uint16_t psi_max,
+[3.230s]       | [01;31m[K^~~~~[m[K
+[3.231s] [01m[K/home/bmes-endoscope-25/temp_ws/src/mprls_imu_node/include/mprls_imu_node/Adafruit_MPRLS.hpp:26:7:[m[K [01;36m[Knote: [m[Kcandidates are: ‘[01m[Kconstexpr MPRLS::[01;32m[KMPRLS[m[K(const MPRLS&)[m[K’
+[3.232s]    26 | class [01;36m[KMPRLS[m[K {
+[3.232s]       |       [01;36m[K^~~~~[m[K
+[3.233s] [01m[K/home/bmes-endoscope-25/temp_ws/src/mprls_imu_node/include/mprls_imu_node/Adafruit_MPRLS.hpp:28:9:[m[K [01;36m[Knote: [m[K                ‘[01m[KMPRLS::[01;32m[KMPRLS[m[K(int, uint8_t, uint16_t, uint16_t, float, float, float)[m[K’
+[3.234s]    28 |         [01;36m[KMPRLS[m[K(int bus = 1,
+[3.235s]       |         [01;36m[K^~~~~[m[K
+[3.236s] [01m[K/home/bmes-endoscope-25/temp_ws/src/mprls_imu_node/include/mprls_imu_node/Adafruit_MPRLS.hpp:26:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass MPRLS[m[K’ defined here
+[3.237s]    26 | class [01;36m[KMPRLS[m[K {
+[3.237s]       |       [01;36m[K^~~~~[m[K
+[3.238s] [01m[K/home/bmes-endoscope-25/temp_ws/src/mprls_imu_node/src/Adafruit_MPRLS.cpp:[m[K In member function ‘[01m[Kbool MPRLS::[01;32m[Kbegin[m[K()[m[K’:
+[3.238s] [01m[K/home/bmes-endoscope-25/temp_ws/src/mprls_imu_node/src/Adafruit_MPRLS.cpp:28:42:[m[K [01;35m[Kwarning: [m[Ktoo many arguments for format [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-extra-args-Wformat-extra-args]8;;[m[K]
+[3.239s]    28 |     snprintf(filename, sizeof(filename), [01;35m[K"/dev/i2c-$d"[m[K, bus_);
+[3.240s]       |                                          [01;35m[K^~~~~~~~~~~~~[m[K
+[3.241s] [01m[K/home/bmes-endoscope-25/temp_ws/src/mprls_imu_node/src/Adafruit_MPRLS.cpp:[m[K In member function ‘[01m[Kbool MPRLS::[01;32m[KwaitReady[m[K()[m[K’:
+[3.242s] [01m[K/home/bmes-endoscope-25/temp_ws/src/mprls_imu_node/src/Adafruit_MPRLS.cpp:66:27:[m[K [01;35m[Kwarning: [m[K‘[01m[K*[m[K’ in boolean context, suggest ‘[01m[K&&[m[K’ instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wint-in-bool-context-Wint-in-bool-context]8;;[m[K]
+[3.243s]    66 |         if (![01;35m[K(last_status * MPRLS_STATUS_BUSY)[m[K)
+[3.243s]       |              [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+[3.416s] [ 23%] [32mBuilding C object CMakeFiles/mprls_imu_node__rosidl_generator_c.dir/rosidl_generator_c/mprls_imu_node/msg/detail/mprls_pressures__functions.c.o[0m
+[3.702s] [ 26%] [32mBuilding C object CMakeFiles/mprls_imu_node__rosidl_generator_c.dir/rosidl_generator_c/mprls_imu_node/msg/detail/mprls_pressures__type_support.c.o[0m
+[3.836s] gmake[2]: *** [CMakeFiles/sensor_drivers.dir/build.make:76: CMakeFiles/sensor_drivers.dir/src/Adafruit_MPRLS.cpp.o] Error 1
+[3.839s] gmake[1]: *** [CMakeFiles/Makefile2:627: CMakeFiles/sensor_drivers.dir/all] Error 2
+[3.842s] gmake[1]: *** Waiting for unfinished jobs....
+[3.954s] [ 28%] [32m[1mLinking C shared library libmprls_imu_node__rosidl_generator_c.so[0m
+[4.203s] [ 28%] Built target mprls_imu_node__rosidl_generator_c
+[4.365s] running egg_info
+[4.370s] creating mprls_imu_node.egg-info
+[4.467s] writing mprls_imu_node.egg-info/PKG-INFO
+[4.468s] writing dependency_links to mprls_imu_node.egg-info/dependency_links.txt
+[4.468s] writing top-level names to mprls_imu_node.egg-info/top_level.txt
+[4.469s] writing manifest file 'mprls_imu_node.egg-info/SOURCES.txt'
+[4.760s] reading manifest file 'mprls_imu_node.egg-info/SOURCES.txt'
+[4.762s] writing manifest file 'mprls_imu_node.egg-info/SOURCES.txt'
+[4.938s] [ 28%] Built target ament_cmake_python_build_mprls_imu_node_egg
+[4.943s] gmake: *** [Makefile:146: all] Error 2
+[4.952s] Invoked command in '/home/bmes-endoscope-25/temp_ws/build/mprls_imu_node' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/bmes-endoscope-25/temp_ws/build/mprls_imu_node -- -j4 -l4

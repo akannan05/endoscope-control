@@ -1,0 +1,2 @@
+Invoking command in '/home/bmes-endoscope-25/temp_ws/build/mprls_imu_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/bmes-endoscope-25/temp_ws/build/mprls_imu_node -- -j4 -l4
+Invoked command in '/home/bmes-endoscope-25/temp_ws/build/mprls_imu_node' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/bmes-endoscope-25/temp_ws/build/mprls_imu_node -- -j4 -l4

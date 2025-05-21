@@ -1,0 +1,111 @@
+[0.000000] (-) TimerEvent: {}
+[0.001704] (mprls_imu_node) JobQueued: {'identifier': 'mprls_imu_node', 'dependencies': OrderedDict()}
+[0.001881] (mprls_imu_node) JobStarted: {'identifier': 'mprls_imu_node'}
+[0.075784] (mprls_imu_node) JobProgress: {'identifier': 'mprls_imu_node', 'progress': 'cmake'}
+[0.078751] (mprls_imu_node) JobProgress: {'identifier': 'mprls_imu_node', 'progress': 'build'}
+[0.082005] (mprls_imu_node) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/bmes-endoscope-25/temp_ws/build/mprls_imu_node', '--', '-j4', '-l4'], 'cwd': '/home/bmes-endoscope-25/temp_ws/build/mprls_imu_node', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'bmes-endoscope-25', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/bmes-endoscope-25', 'OLDPWD': '/home/bmes-endoscope-25/temp_ws/src/mprls_imu_node', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1576', 'SYSTEMD_EXEC_PID': '2043', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3668', 'GNOME_KEYRING_CONTROL': '/run/user/1002/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/bmes-endoscope-25/temp_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'bmes-endoscope-25', 'JOURNAL_STREAM': '8:18050', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1002.slice/user@1002.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'bmes-endoscope-25', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/bmesendoscope25-desktop:@/tmp/.ICE-unix/1757,unix/bmesendoscope25-desktop:/tmp/.ICE-unix/1757', 'INVOCATION_ID': 'de063e3ff28b4349b749cf907f89e05d', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1002', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'C.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1002/.mutter-Xwaylandauth.A2O2S2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1002/keyring/ssh', 'ROS_DOMAIN_ID': '1', 'AMENT_PREFIX_PATH': '/home/bmes-endoscope-25/temp_ws/install/mprls_imu_node:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:511f7dfa-a2cd-46e4-97be-ce2a5d1883c1', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/bmes-endoscope-25/temp_ws/build/mprls_imu_node', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/bmes-endoscope-25/temp_ws/install/mprls_imu_node:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.099482] (-) TimerEvent: {}
+[0.200393] (-) TimerEvent: {}
+[0.303049] (-) TimerEvent: {}
+[0.403981] (-) TimerEvent: {}
+[0.438076] (mprls_imu_node) StdoutLine: {'line': b'[  2%] Built target mprls_imu_node__rosidl_generator_type_description\n'}
+[0.450164] (mprls_imu_node) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding CXX object CMakeFiles/sensor_drivers.dir/src/Adafruit_MPRLS.cpp.o\x1b[0m\n'}
+[0.479289] (mprls_imu_node) StdoutLine: {'line': b'[ 11%] Built target test_tca\n'}
+[0.507046] (-) TimerEvent: {}
+[0.544655] (mprls_imu_node) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/sensor_drivers.dir/src/TCA9548A.cpp.o\x1b[0m\n'}
+[0.582340] (mprls_imu_node) StdoutLine: {'line': b'[ 14%] Built target ament_cmake_python_copy_mprls_imu_node\n'}
+[0.600519] (mprls_imu_node) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[0.607307] (-) TimerEvent: {}
+[0.687510] (mprls_imu_node) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[0.710036] (-) TimerEvent: {}
+[0.810945] (-) TimerEvent: {}
+[0.913302] (-) TimerEvent: {}
+[1.014181] (-) TimerEvent: {}
+[1.116483] (-) TimerEvent: {}
+[1.220406] (-) TimerEvent: {}
+[1.321198] (-) TimerEvent: {}
+[1.423010] (-) TimerEvent: {}
+[1.526010] (-) TimerEvent: {}
+[1.626785] (-) TimerEvent: {}
+[1.727669] (-) TimerEvent: {}
+[1.829021] (-) TimerEvent: {}
+[1.932230] (-) TimerEvent: {}
+[2.033069] (-) TimerEvent: {}
+[2.134186] (-) TimerEvent: {}
+[2.240093] (-) TimerEvent: {}
+[2.341502] (-) TimerEvent: {}
+[2.442651] (-) TimerEvent: {}
+[2.511657] (mprls_imu_node) StdoutLine: {'line': b'[ 19%] Built target mprls_imu_node__cpp\n'}
+[2.543074] (-) TimerEvent: {}
+[2.565922] (mprls_imu_node) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/bmes-endoscope-25/temp_ws/src/mprls_imu_node/src/Adafruit_MPRLS.cpp:1\x1b[m\x1b[K:\n'}
+[2.567645] (mprls_imu_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/bmes-endoscope-25/temp_ws/src/mprls_imu_node/include/mprls_imu_node/Adafruit_MPRLS.hpp:18:32:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kconversion from \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kuint8_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kunsigned char\x1b[m\x1b[K\xe2\x80\x99} changes value from \xe2\x80\x98\x1b[01m\x1b[K16777216\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[K0\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Woverflow\x07-Woverflow\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.578127] (mprls_imu_node) StderrLine: {'line': b'   18 | constexpr uint8_t COUNTS_224 = \x1b[01;35m\x1b[K16777216UL\x1b[m\x1b[K;\n'}
+[2.579277] (mprls_imu_node) StderrLine: {'line': b'      |                                \x1b[01;35m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.643445] (-) TimerEvent: {}
+[2.750015] (-) TimerEvent: {}
+[2.850899] (-) TimerEvent: {}
+[2.955264] (-) TimerEvent: {}
+[2.994827] (mprls_imu_node) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding C object CMakeFiles/mprls_imu_node__rosidl_generator_c.dir/rosidl_generator_c/mprls_imu_node/msg/detail/mprls_pressures__description.c.o\x1b[0m\n'}
+[3.055700] (-) TimerEvent: {}
+[3.159421] (-) TimerEvent: {}
+[3.227564] (mprls_imu_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/bmes-endoscope-25/temp_ws/src/mprls_imu_node/src/Adafruit_MPRLS.cpp:12:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kaddress\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[3.228564] (mprls_imu_node) StderrLine: {'line': b'   12 | MPRLS::MPRLS(int bus, uint8_t, \x1b[01;31m\x1b[Kaddress\x1b[m\x1b[K, uint16_t psi_min, uint16_t psi_max,\n'}
+[3.229472] (mprls_imu_node) StderrLine: {'line': b'      |                                \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[3.230170] (mprls_imu_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/bmes-endoscope-25/temp_ws/src/mprls_imu_node/src/Adafruit_MPRLS.cpp:12:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno declaration matches \xe2\x80\x98\x1b[01m\x1b[KMPRLS::\x1b[01;32m\x1b[KMPRLS\x1b[m\x1b[K(int, uint8_t, int, uint16_t, uint16_t, float, float, float)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.230763] (mprls_imu_node) StderrLine: {'line': b'   12 | \x1b[01;31m\x1b[KMPRLS\x1b[m\x1b[K::MPRLS(int bus, uint8_t, address, uint16_t psi_min, uint16_t psi_max,\n'}
+[3.231614] (mprls_imu_node) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[3.232328] (mprls_imu_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/bmes-endoscope-25/temp_ws/src/mprls_imu_node/include/mprls_imu_node/Adafruit_MPRLS.hpp:26:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidates are: \xe2\x80\x98\x1b[01m\x1b[Kconstexpr MPRLS::\x1b[01;32m\x1b[KMPRLS\x1b[m\x1b[K(const MPRLS&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.232870] (mprls_imu_node) StderrLine: {'line': b'   26 | class \x1b[01;36m\x1b[KMPRLS\x1b[m\x1b[K {\n'}
+[3.233647] (mprls_imu_node) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[3.234328] (mprls_imu_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/bmes-endoscope-25/temp_ws/src/mprls_imu_node/include/mprls_imu_node/Adafruit_MPRLS.hpp:28:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K                \xe2\x80\x98\x1b[01m\x1b[KMPRLS::\x1b[01;32m\x1b[KMPRLS\x1b[m\x1b[K(int, uint8_t, uint16_t, uint16_t, float, float, float)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.235070] (mprls_imu_node) StderrLine: {'line': b'   28 |         \x1b[01;36m\x1b[KMPRLS\x1b[m\x1b[K(int bus = 1,\n'}
+[3.236027] (mprls_imu_node) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[3.237222] (mprls_imu_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/bmes-endoscope-25/temp_ws/src/mprls_imu_node/include/mprls_imu_node/Adafruit_MPRLS.hpp:26:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass MPRLS\x1b[m\x1b[K\xe2\x80\x99 defined here\n'}
+[3.238010] (mprls_imu_node) StderrLine: {'line': b'   26 | class \x1b[01;36m\x1b[KMPRLS\x1b[m\x1b[K {\n'}
+[3.238608] (mprls_imu_node) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[3.239127] (mprls_imu_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/bmes-endoscope-25/temp_ws/src/mprls_imu_node/src/Adafruit_MPRLS.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool MPRLS::\x1b[01;32m\x1b[Kbegin\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.239617] (mprls_imu_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/bmes-endoscope-25/temp_ws/src/mprls_imu_node/src/Adafruit_MPRLS.cpp:28:42:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ktoo many arguments for format [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-extra-args\x07-Wformat-extra-args\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.240301] (mprls_imu_node) StderrLine: {'line': b'   28 |     snprintf(filename, sizeof(filename), \x1b[01;35m\x1b[K"/dev/i2c-$d"\x1b[m\x1b[K, bus_);\n'}
+[3.240933] (mprls_imu_node) StderrLine: {'line': b'      |                                          \x1b[01;35m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.241789] (mprls_imu_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/bmes-endoscope-25/temp_ws/src/mprls_imu_node/src/Adafruit_MPRLS.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool MPRLS::\x1b[01;32m\x1b[KwaitReady\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.242793] (mprls_imu_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/bmes-endoscope-25/temp_ws/src/mprls_imu_node/src/Adafruit_MPRLS.cpp:66:27:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K*\x1b[m\x1b[K\xe2\x80\x99 in boolean context, suggest \xe2\x80\x98\x1b[01m\x1b[K&&\x1b[m\x1b[K\xe2\x80\x99 instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wint-in-bool-context\x07-Wint-in-bool-context\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.243904] (mprls_imu_node) StderrLine: {'line': b'   66 |         if (!\x1b[01;35m\x1b[K(last_status * MPRLS_STATUS_BUSY)\x1b[m\x1b[K)\n'}
+[3.244701] (mprls_imu_node) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.260528] (-) TimerEvent: {}
+[3.364450] (-) TimerEvent: {}
+[3.416800] (mprls_imu_node) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding C object CMakeFiles/mprls_imu_node__rosidl_generator_c.dir/rosidl_generator_c/mprls_imu_node/msg/detail/mprls_pressures__functions.c.o\x1b[0m\n'}
+[3.464876] (-) TimerEvent: {}
+[3.566224] (-) TimerEvent: {}
+[3.668007] (-) TimerEvent: {}
+[3.703136] (mprls_imu_node) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding C object CMakeFiles/mprls_imu_node__rosidl_generator_c.dir/rosidl_generator_c/mprls_imu_node/msg/detail/mprls_pressures__type_support.c.o\x1b[0m\n'}
+[3.768333] (-) TimerEvent: {}
+[3.835347] (mprls_imu_node) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/sensor_drivers.dir/build.make:76: CMakeFiles/sensor_drivers.dir/src/Adafruit_MPRLS.cpp.o] Error 1\n'}
+[3.838884] (mprls_imu_node) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:627: CMakeFiles/sensor_drivers.dir/all] Error 2\n'}
+[3.841689] (mprls_imu_node) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[3.868569] (-) TimerEvent: {}
+[3.955757] (mprls_imu_node) StdoutLine: {'line': b'[ 28%] \x1b[32m\x1b[1mLinking C shared library libmprls_imu_node__rosidl_generator_c.so\x1b[0m\n'}
+[3.968782] (-) TimerEvent: {}
+[4.069471] (-) TimerEvent: {}
+[4.170286] (-) TimerEvent: {}
+[4.204154] (mprls_imu_node) StdoutLine: {'line': b'[ 28%] Built target mprls_imu_node__rosidl_generator_c\n'}
+[4.270451] (-) TimerEvent: {}
+[4.366629] (mprls_imu_node) StdoutLine: {'line': b'running egg_info\n'}
+[4.370614] (-) TimerEvent: {}
+[4.371279] (mprls_imu_node) StdoutLine: {'line': b'creating mprls_imu_node.egg-info\n'}
+[4.468329] (mprls_imu_node) StdoutLine: {'line': b'writing mprls_imu_node.egg-info/PKG-INFO\n'}
+[4.469224] (mprls_imu_node) StdoutLine: {'line': b'writing dependency_links to mprls_imu_node.egg-info/dependency_links.txt\n'}
+[4.470053] (mprls_imu_node) StdoutLine: {'line': b'writing top-level names to mprls_imu_node.egg-info/top_level.txt\n'}
+[4.470647] (mprls_imu_node) StdoutLine: {'line': b"writing manifest file 'mprls_imu_node.egg-info/SOURCES.txt'\n"}
+[4.471120] (-) TimerEvent: {}
+[4.571578] (-) TimerEvent: {}
+[4.672202] (-) TimerEvent: {}
+[4.761198] (mprls_imu_node) StdoutLine: {'line': b"reading manifest file 'mprls_imu_node.egg-info/SOURCES.txt'\n"}
+[4.763335] (mprls_imu_node) StdoutLine: {'line': b"writing manifest file 'mprls_imu_node.egg-info/SOURCES.txt'\n"}
+[4.772520] (-) TimerEvent: {}
+[4.873627] (-) TimerEvent: {}
+[4.939563] (mprls_imu_node) StdoutLine: {'line': b'[ 28%] Built target ament_cmake_python_build_mprls_imu_node_egg\n'}
+[4.944879] (mprls_imu_node) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[4.952766] (mprls_imu_node) CommandEnded: {'returncode': 2}
+[4.974064] (-) TimerEvent: {}
+[5.027732] (mprls_imu_node) JobEnded: {'identifier': 'mprls_imu_node', 'rc': 2}
+[5.033189] (-) EventReactorShutdown: {}

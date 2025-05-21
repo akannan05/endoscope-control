@@ -1,0 +1,14 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from mprls_imu_node/msg/MPRLSPressures.msg
+// generated code does not contain a copyright notice
+
+
+module mprls_imu_node {
+  module msg {
+    struct MPRLSPressures {
+      float pressure_sensor_1;
+
+      float pressure_sensor_2;
+    };
+  };
+};

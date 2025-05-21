@@ -1,0 +1,4 @@
+In file included from [01m[K/home/bmes-endoscope-25/temp_ws/src/mprls_imu_node/src/Adafruit_MPRLS.cpp:1[m[K:
+[01m[K/home/bmes-endoscope-25/temp_ws/src/mprls_imu_node/include/mprls_imu_node/Adafruit_MPRLS.hpp:18:32:[m[K [01;35m[Kwarning: [m[Kconversion from ‘[01m[Klong unsigned int[m[K’ to ‘[01m[Kuint8_t[m[K’ {aka ‘[01m[Kunsigned char[m[K’} changes value from ‘[01m[K16777216[m[K’ to ‘[01m[K0[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Woverflow-Woverflow]8;;[m[K]
+   18 | constexpr uint8_t COUNTS_224 = [01;35m[K16777216UL[m[K;
+      |                                [01;35m[K^~~~~~~~~~[m[K

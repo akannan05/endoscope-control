@@ -1,0 +1,17 @@
+[0.081s] Invoking command in '/home/bmes-endoscope-25/temp_ws/build/mprls_imu_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/bmes-endoscope-25/temp_ws/build/mprls_imu_node -- -j4 -l4
+[0.396s] [ 33%] [32mBuilding CXX object CMakeFiles/test_tca.dir/src/TCA9548A.cpp.o[0m
+[0.398s] [ 66%] [32mBuilding CXX object CMakeFiles/test_tca.dir/src/test_TCA.cpp.o[0m
+[0.459s] [01m[K/home/bmes-endoscope-25/temp_ws/src/mprls_imu_node/src/TCA9548A.cpp:1:10:[m[K [01;31m[Kfatal error: [m[KTCA9548A.hpp: No such file or directory
+[0.460s]     1 | #include [01;31m[K"TCA9548A.hpp"[m[K
+[0.461s]       |          [01;31m[K^~~~~~~~~~~~~~[m[K
+[0.461s] [01m[K/home/bmes-endoscope-25/temp_ws/src/mprls_imu_node/src/test_TCA.cpp:1:10:[m[K [01;31m[Kfatal error: [m[KTCA9548A.hpp: No such file or directory
+[0.461s]     1 | #include [01;31m[K"TCA9548A.hpp"[m[K
+[0.462s]       |          [01;31m[K^~~~~~~~~~~~~~[m[K
+[0.462s] compilation terminated.
+[0.462s] compilation terminated.
+[0.465s] gmake[2]: *** [CMakeFiles/test_tca.dir/build.make:90: CMakeFiles/test_tca.dir/src/test_TCA.cpp.o] Error 1
+[0.466s] gmake[2]: *** Waiting for unfinished jobs....
+[0.466s] gmake[2]: *** [CMakeFiles/test_tca.dir/build.make:76: CMakeFiles/test_tca.dir/src/TCA9548A.cpp.o] Error 1
+[0.467s] gmake[1]: *** [CMakeFiles/Makefile2:85: CMakeFiles/test_tca.dir/all] Error 2
+[0.467s] gmake: *** [Makefile:146: all] Error 2
+[0.476s] Invoked command in '/home/bmes-endoscope-25/temp_ws/build/mprls_imu_node' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/bmes-endoscope-25/temp_ws/build/mprls_imu_node -- -j4 -l4

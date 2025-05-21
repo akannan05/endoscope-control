@@ -1,0 +1,7 @@
+{
+  "package_name": "mprls_imu_node",
+  "output_dir": "/home/bmes-endoscope-25/temp_ws/endoscope-control/build/mprls_imu_node/rosidl_generator_type_description/mprls_imu_node",
+  "idl_tuples": [
+    "/home/bmes-endoscope-25/temp_ws/endoscope-control/build/mprls_imu_node/rosidl_adapter/mprls_imu_node:msg/MPRLSPressures.idl"
+  ]
+}

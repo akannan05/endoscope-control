@@ -1,0 +1,31 @@
+In file included from [01m[K/home/bmes-endoscope-25/temp_ws/src/mprls_imu_node/src/Adafruit_MPRLS.cpp:1[m[K:
+[01m[K/home/bmes-endoscope-25/temp_ws/src/mprls_imu_node/include/mprls_imu_node/Adafruit_MPRLS.hpp:18:32:[m[K [01;35m[Kwarning: [m[Kconversion from ‘[01m[Klong unsigned int[m[K’ to ‘[01m[Kuint8_t[m[K’ {aka ‘[01m[Kunsigned char[m[K’} changes value from ‘[01m[K16777216[m[K’ to ‘[01m[K0[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Woverflow-Woverflow]8;;[m[K]
+   18 | constexpr uint8_t COUNTS_224 = [01;35m[K16777216UL[m[K;
+      |                                [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/bmes-endoscope-25/temp_ws/src/mprls_imu_node/src/Adafruit_MPRLS.cpp:12:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kaddress[m[K’ has not been declared
+   12 | MPRLS::MPRLS(int bus, uint8_t, [01;31m[Kaddress[m[K, uint16_t psi_min, uint16_t psi_max,
+      |                                [01;31m[K^~~~~~~[m[K
+[01m[K/home/bmes-endoscope-25/temp_ws/src/mprls_imu_node/src/Adafruit_MPRLS.cpp:12:1:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[KMPRLS::[01;32m[KMPRLS[m[K(int, uint8_t, int, uint16_t, uint16_t, float, float, float)[m[K’
+   12 | [01;31m[KMPRLS[m[K::MPRLS(int bus, uint8_t, address, uint16_t psi_min, uint16_t psi_max,
+      | [01;31m[K^~~~~[m[K
+[01m[K/home/bmes-endoscope-25/temp_ws/src/mprls_imu_node/include/mprls_imu_node/Adafruit_MPRLS.hpp:26:7:[m[K [01;36m[Knote: [m[Kcandidates are: ‘[01m[Kconstexpr MPRLS::[01;32m[KMPRLS[m[K(const MPRLS&)[m[K’
+   26 | class [01;36m[KMPRLS[m[K {
+      |       [01;36m[K^~~~~[m[K
+[01m[K/home/bmes-endoscope-25/temp_ws/src/mprls_imu_node/include/mprls_imu_node/Adafruit_MPRLS.hpp:28:9:[m[K [01;36m[Knote: [m[K                ‘[01m[KMPRLS::[01;32m[KMPRLS[m[K(int, uint8_t, uint16_t, uint16_t, float, float, float)[m[K’
+   28 |         [01;36m[KMPRLS[m[K(int bus = 1,
+      |         [01;36m[K^~~~~[m[K
+[01m[K/home/bmes-endoscope-25/temp_ws/src/mprls_imu_node/include/mprls_imu_node/Adafruit_MPRLS.hpp:26:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass MPRLS[m[K’ defined here
+   26 | class [01;36m[KMPRLS[m[K {
+      |       [01;36m[K^~~~~[m[K
+[01m[K/home/bmes-endoscope-25/temp_ws/src/mprls_imu_node/src/Adafruit_MPRLS.cpp:[m[K In member function ‘[01m[Kbool MPRLS::[01;32m[Kbegin[m[K()[m[K’:
+[01m[K/home/bmes-endoscope-25/temp_ws/src/mprls_imu_node/src/Adafruit_MPRLS.cpp:28:42:[m[K [01;35m[Kwarning: [m[Ktoo many arguments for format [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-extra-args-Wformat-extra-args]8;;[m[K]
+   28 |     snprintf(filename, sizeof(filename), [01;35m[K"/dev/i2c-$d"[m[K, bus_);
+      |                                          [01;35m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/bmes-endoscope-25/temp_ws/src/mprls_imu_node/src/Adafruit_MPRLS.cpp:[m[K In member function ‘[01m[Kbool MPRLS::[01;32m[KwaitReady[m[K()[m[K’:
+[01m[K/home/bmes-endoscope-25/temp_ws/src/mprls_imu_node/src/Adafruit_MPRLS.cpp:66:27:[m[K [01;35m[Kwarning: [m[K‘[01m[K*[m[K’ in boolean context, suggest ‘[01m[K&&[m[K’ instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wint-in-bool-context-Wint-in-bool-context]8;;[m[K]
+   66 |         if (![01;35m[K(last_status * MPRLS_STATUS_BUSY)[m[K)
+      |              [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/sensor_drivers.dir/build.make:76: CMakeFiles/sensor_drivers.dir/src/Adafruit_MPRLS.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:627: CMakeFiles/sensor_drivers.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

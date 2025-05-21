@@ -1,0 +1,587 @@
+[0.000000] (-) TimerEvent: {}
+[0.001014] (mprls_imu_node) JobQueued: {'identifier': 'mprls_imu_node', 'dependencies': OrderedDict()}
+[0.002067] (mprls_imu_node) JobStarted: {'identifier': 'mprls_imu_node'}
+[0.070916] (mprls_imu_node) JobProgress: {'identifier': 'mprls_imu_node', 'progress': 'cmake'}
+[0.074634] (mprls_imu_node) JobProgress: {'identifier': 'mprls_imu_node', 'progress': 'build'}
+[0.077377] (mprls_imu_node) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/bmes-endoscope-25/temp_ws/build/mprls_imu_node', '--', '-j4', '-l4'], 'cwd': '/home/bmes-endoscope-25/temp_ws/build/mprls_imu_node', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'bmes-endoscope-25', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/bmes-endoscope-25', 'OLDPWD': '/home/bmes-endoscope-25/temp_ws/src/mprls_imu_node', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1576', 'SYSTEMD_EXEC_PID': '2043', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3668', 'GNOME_KEYRING_CONTROL': '/run/user/1002/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/bmes-endoscope-25/temp_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'bmes-endoscope-25', 'JOURNAL_STREAM': '8:18050', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1002.slice/user@1002.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'bmes-endoscope-25', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/bmesendoscope25-desktop:@/tmp/.ICE-unix/1757,unix/bmesendoscope25-desktop:/tmp/.ICE-unix/1757', 'INVOCATION_ID': 'de063e3ff28b4349b749cf907f89e05d', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1002', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'C.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1002/.mutter-Xwaylandauth.A2O2S2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1002/keyring/ssh', 'ROS_DOMAIN_ID': '1', 'AMENT_PREFIX_PATH': '/home/bmes-endoscope-25/temp_ws/install/mprls_imu_node:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:511f7dfa-a2cd-46e4-97be-ce2a5d1883c1', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/bmes-endoscope-25/temp_ws/build/mprls_imu_node', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/bmes-endoscope-25/temp_ws/install/mprls_imu_node:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.099255] (-) TimerEvent: {}
+[0.200053] (-) TimerEvent: {}
+[0.300779] (-) TimerEvent: {}
+[0.403486] (-) TimerEvent: {}
+[0.441849] (mprls_imu_node) StdoutLine: {'line': b'[  2%] Built target mprls_imu_node__rosidl_generator_type_description\n'}
+[0.466325] (mprls_imu_node) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding CXX object CMakeFiles/sensor_drivers.dir/src/Adafruit_MPRLS.cpp.o\x1b[0m\n'}
+[0.490336] (mprls_imu_node) StdoutLine: {'line': b'[ 11%] Built target test_tca\n'}
+[0.494645] (mprls_imu_node) StdoutLine: {'line': b'[ 11%] Built target ament_cmake_python_copy_mprls_imu_node\n'}
+[0.503724] (-) TimerEvent: {}
+[0.605702] (-) TimerEvent: {}
+[0.609408] (mprls_imu_node) StdoutLine: {'line': b'[ 14%] Built target mprls_imu_node__cpp\n'}
+[0.706030] (-) TimerEvent: {}
+[0.711104] (mprls_imu_node) StdoutLine: {'line': b'[ 26%] Built target mprls_imu_node__rosidl_generator_c\n'}
+[0.803088] (mprls_imu_node) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[0.806145] (mprls_imu_node) StdoutLine: {'line': b'[ 30%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[0.806849] (-) TimerEvent: {}
+[0.908480] (-) TimerEvent: {}
+[1.012622] (-) TimerEvent: {}
+[1.113869] (-) TimerEvent: {}
+[1.214737] (-) TimerEvent: {}
+[1.316134] (-) TimerEvent: {}
+[1.419339] (-) TimerEvent: {}
+[1.523098] (-) TimerEvent: {}
+[1.623831] (-) TimerEvent: {}
+[1.724760] (-) TimerEvent: {}
+[1.825634] (-) TimerEvent: {}
+[1.928409] (-) TimerEvent: {}
+[2.029249] (-) TimerEvent: {}
+[2.133077] (-) TimerEvent: {}
+[2.238152] (-) TimerEvent: {}
+[2.342120] (-) TimerEvent: {}
+[2.443181] (-) TimerEvent: {}
+[2.472323] (mprls_imu_node) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/mprls_imu_node__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mprls_imu_node/msg/mprls_pressures__type_support.cpp.o\x1b[0m\n'}
+[2.546120] (-) TimerEvent: {}
+[2.602379] (mprls_imu_node) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/bmes-endoscope-25/temp_ws/src/mprls_imu_node/src/Adafruit_MPRLS.cpp:1\x1b[m\x1b[K:\n'}
+[2.603429] (mprls_imu_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/bmes-endoscope-25/temp_ws/src/mprls_imu_node/include/mprls_imu_node/Adafruit_MPRLS.hpp:18:32:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kconversion from \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kuint8_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kunsigned char\x1b[m\x1b[K\xe2\x80\x99} changes value from \xe2\x80\x98\x1b[01m\x1b[K16777216\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[K0\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Woverflow\x07-Woverflow\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.604198] (mprls_imu_node) StderrLine: {'line': b'   18 | constexpr uint8_t COUNTS_224 = \x1b[01;35m\x1b[K16777216UL\x1b[m\x1b[K;\n'}
+[2.604816] (mprls_imu_node) StderrLine: {'line': b'      |                                \x1b[01;35m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.646354] (-) TimerEvent: {}
+[2.738323] (mprls_imu_node) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/mprls_imu_node__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mprls_imu_node/msg/detail/mprls_pressures__type_support_c.cpp.o\x1b[0m\n'}
+[2.746595] (-) TimerEvent: {}
+[2.753754] (mprls_imu_node) StdoutLine: {'line': b'running egg_info\n'}
+[2.849168] (-) TimerEvent: {}
+[2.950086] (-) TimerEvent: {}
+[3.028207] (mprls_imu_node) StdoutLine: {'line': b'writing mprls_imu_node.egg-info/PKG-INFO\n'}
+[3.029654] (mprls_imu_node) StdoutLine: {'line': b'writing dependency_links to mprls_imu_node.egg-info/dependency_links.txt\n'}
+[3.034633] (mprls_imu_node) StdoutLine: {'line': b'writing top-level names to mprls_imu_node.egg-info/top_level.txt\n'}
+[3.051080] (-) TimerEvent: {}
+[3.154115] (-) TimerEvent: {}
+[3.176692] (mprls_imu_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/bmes-endoscope-25/temp_ws/src/mprls_imu_node/src/Adafruit_MPRLS.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool MPRLS::\x1b[01;32m\x1b[Kbegin\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.178319] (mprls_imu_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/bmes-endoscope-25/temp_ws/src/mprls_imu_node/src/Adafruit_MPRLS.cpp:28:42:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ktoo many arguments for format [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-extra-args\x07-Wformat-extra-args\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.179390] (mprls_imu_node) StderrLine: {'line': b'   28 |     snprintf(filename, sizeof(filename), \x1b[01;35m\x1b[K"/dev/i2c-$d"\x1b[m\x1b[K, bus_);\n'}
+[3.180112] (mprls_imu_node) StderrLine: {'line': b'      |                                          \x1b[01;35m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.185628] (mprls_imu_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/bmes-endoscope-25/temp_ws/src/mprls_imu_node/src/Adafruit_MPRLS.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool MPRLS::\x1b[01;32m\x1b[KwaitReady\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.186440] (mprls_imu_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/bmes-endoscope-25/temp_ws/src/mprls_imu_node/src/Adafruit_MPRLS.cpp:66:27:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K*\x1b[m\x1b[K\xe2\x80\x99 in boolean context, suggest \xe2\x80\x98\x1b[01m\x1b[K&&\x1b[m\x1b[K\xe2\x80\x99 instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wint-in-bool-context\x07-Wint-in-bool-context\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.190503] (mprls_imu_node) StderrLine: {'line': b'   66 |         if (!\x1b[01;35m\x1b[K(last_status * MPRLS_STATUS_BUSY)\x1b[m\x1b[K)\n'}
+[3.197475] (mprls_imu_node) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.255100] (-) TimerEvent: {}
+[3.355836] (-) TimerEvent: {}
+[3.460439] (-) TimerEvent: {}
+[3.561382] (-) TimerEvent: {}
+[3.662336] (-) TimerEvent: {}
+[3.763283] (-) TimerEvent: {}
+[3.865557] (-) TimerEvent: {}
+[3.947084] (mprls_imu_node) StdoutLine: {'line': b"reading manifest file 'mprls_imu_node.egg-info/SOURCES.txt'\n"}
+[3.956811] (mprls_imu_node) StdoutLine: {'line': b"writing manifest file 'mprls_imu_node.egg-info/SOURCES.txt'\n"}
+[3.965812] (-) TimerEvent: {}
+[4.070142] (-) TimerEvent: {}
+[4.108504] (mprls_imu_node) StdoutLine: {'line': b'[ 38%] \x1b[32m\x1b[1mLinking CXX shared library libsensor_drivers.so\x1b[0m\n'}
+[4.171199] (-) TimerEvent: {}
+[4.277196] (-) TimerEvent: {}
+[4.282557] (mprls_imu_node) StdoutLine: {'line': b'[ 38%] Built target ament_cmake_python_build_mprls_imu_node_egg\n'}
+[4.379138] (-) TimerEvent: {}
+[4.415505] (mprls_imu_node) StdoutLine: {'line': b'[ 40%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.479608] (-) TimerEvent: {}
+[4.580619] (-) TimerEvent: {}
+[4.684131] (-) TimerEvent: {}
+[4.785183] (-) TimerEvent: {}
+[4.888535] (-) TimerEvent: {}
+[4.989729] (-) TimerEvent: {}
+[5.092357] (-) TimerEvent: {}
+[5.195133] (mprls_imu_node) StdoutLine: {'line': b'[ 42%] Built target sensor_drivers\n'}
+[5.196201] (-) TimerEvent: {}
+[5.292022] (mprls_imu_node) StdoutLine: {'line': b'[ 45%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[5.296445] (-) TimerEvent: {}
+[5.398428] (-) TimerEvent: {}
+[5.500025] (-) TimerEvent: {}
+[5.583622] (mprls_imu_node) StdoutLine: {'line': b'[ 47%] \x1b[32m\x1b[1mLinking CXX shared library libmprls_imu_node__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[5.600198] (-) TimerEvent: {}
+[5.704576] (-) TimerEvent: {}
+[5.808152] (-) TimerEvent: {}
+[5.909191] (-) TimerEvent: {}
+[5.927893] (mprls_imu_node) StdoutLine: {'line': b'[ 47%] Built target mprls_imu_node__rosidl_typesupport_cpp\n'}
+[6.012145] (-) TimerEvent: {}
+[6.037611] (mprls_imu_node) StdoutLine: {'line': b'[ 50%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[6.115230] (-) TimerEvent: {}
+[6.217096] (-) TimerEvent: {}
+[6.320408] (-) TimerEvent: {}
+[6.421382] (-) TimerEvent: {}
+[6.428146] (mprls_imu_node) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/mprls_imu_node__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mprls_imu_node/msg/detail/dds_fastrtps/mprls_pressures__type_support.cpp.o\x1b[0m\n'}
+[6.523134] (-) TimerEvent: {}
+[6.624138] (-) TimerEvent: {}
+[6.727216] (-) TimerEvent: {}
+[6.828510] (-) TimerEvent: {}
+[6.932394] (-) TimerEvent: {}
+[7.038286] (-) TimerEvent: {}
+[7.127374] (mprls_imu_node) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding C object CMakeFiles/mprls_imu_node__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mprls_imu_node/msg/detail/mprls_pressures__type_support.c.o\x1b[0m\n'}
+[7.138513] (-) TimerEvent: {}
+[7.147616] (mprls_imu_node) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking CXX shared library libmprls_imu_node__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[7.238798] (-) TimerEvent: {}
+[7.339800] (-) TimerEvent: {}
+[7.443195] (-) TimerEvent: {}
+[7.505455] (mprls_imu_node) StdoutLine: {'line': b'[ 59%] \x1b[32m\x1b[1mLinking C shared library libmprls_imu_node__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[7.543631] (-) TimerEvent: {}
+[7.638644] (mprls_imu_node) StdoutLine: {'line': b'[ 59%] Built target mprls_imu_node__rosidl_typesupport_fastrtps_c\n'}
+[7.643982] (-) TimerEvent: {}
+[7.747536] (-) TimerEvent: {}
+[7.777849] (mprls_imu_node) StdoutLine: {'line': b'[ 61%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[7.811331] (mprls_imu_node) StdoutLine: {'line': b'[ 61%] Built target mprls_imu_node__rosidl_typesupport_introspection_c\n'}
+[7.832882] (mprls_imu_node) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/mprls_imu_node__rosidl_typesupport_c.dir/rosidl_typesupport_c/mprls_imu_node/msg/mprls_pressures__type_support.cpp.o\x1b[0m\n'}
+[7.847777] (-) TimerEvent: {}
+[7.951105] (-) TimerEvent: {}
+[8.051903] (-) TimerEvent: {}
+[8.149911] (mprls_imu_node) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX shared library libmprls_imu_node__rosidl_typesupport_c.so\x1b[0m\n'}
+[8.152362] (-) TimerEvent: {}
+[8.253704] (-) TimerEvent: {}
+[8.354920] (-) TimerEvent: {}
+[8.432601] (mprls_imu_node) StdoutLine: {'line': b'[ 66%] Built target mprls_imu_node__rosidl_typesupport_c\n'}
+[8.455105] (-) TimerEvent: {}
+[8.555790] (-) TimerEvent: {}
+[8.656562] (-) TimerEvent: {}
+[8.757309] (-) TimerEvent: {}
+[8.858206] (-) TimerEvent: {}
+[8.959459] (-) TimerEvent: {}
+[9.060381] (-) TimerEvent: {}
+[9.156673] (mprls_imu_node) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/mprls_imu_node__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mprls_imu_node/msg/detail/mprls_pressures__type_support.cpp.o\x1b[0m\n'}
+[9.160598] (-) TimerEvent: {}
+[9.261539] (-) TimerEvent: {}
+[9.362381] (-) TimerEvent: {}
+[9.463101] (-) TimerEvent: {}
+[9.563849] (-) TimerEvent: {}
+[9.664704] (-) TimerEvent: {}
+[9.765579] (-) TimerEvent: {}
+[9.847421] (mprls_imu_node) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library libmprls_imu_node__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[9.865798] (-) TimerEvent: {}
+[9.969398] (-) TimerEvent: {}
+[10.070267] (-) TimerEvent: {}
+[10.156072] (mprls_imu_node) StdoutLine: {'line': b'[ 71%] Built target mprls_imu_node__rosidl_typesupport_fastrtps_cpp\n'}
+[10.170477] (-) TimerEvent: {}
+[10.271195] (-) TimerEvent: {}
+[10.371886] (-) TimerEvent: {}
+[10.472642] (-) TimerEvent: {}
+[10.573442] (-) TimerEvent: {}
+[10.674104] (-) TimerEvent: {}
+[10.774779] (-) TimerEvent: {}
+[10.875486] (-) TimerEvent: {}
+[10.879813] (mprls_imu_node) StdoutLine: {'line': b'[ 73%] \x1b[32m\x1b[1mLinking CXX shared library libmprls_imu_node__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[10.975759] (-) TimerEvent: {}
+[11.077397] (-) TimerEvent: {}
+[11.107773] (mprls_imu_node) StdoutLine: {'line': b'[ 73%] Built target mprls_imu_node__rosidl_typesupport_introspection_cpp\n'}
+[11.177621] (-) TimerEvent: {}
+[11.228108] (mprls_imu_node) StdoutLine: {'line': b'[ 73%] Built target mprls_imu_node\n'}
+[11.277846] (-) TimerEvent: {}
+[11.352435] (mprls_imu_node) StdoutLine: {'line': b'[ 78%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[11.353346] (mprls_imu_node) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/test_mprls_node.dir/src/test_mprls_publisher.cpp.o\x1b[0m\n'}
+[11.378134] (-) TimerEvent: {}
+[11.479237] (-) TimerEvent: {}
+[11.580240] (-) TimerEvent: {}
+[11.680839] (-) TimerEvent: {}
+[11.781492] (-) TimerEvent: {}
+[11.882170] (-) TimerEvent: {}
+[11.982817] (-) TimerEvent: {}
+[12.083602] (-) TimerEvent: {}
+[12.184533] (-) TimerEvent: {}
+[12.285214] (-) TimerEvent: {}
+[12.385836] (-) TimerEvent: {}
+[12.486593] (-) TimerEvent: {}
+[12.588405] (-) TimerEvent: {}
+[12.682813] (mprls_imu_node) StdoutLine: {'line': b'[ 78%] Built target mprls_imu_node__py\n'}
+[12.688607] (-) TimerEvent: {}
+[12.789342] (-) TimerEvent: {}
+[12.816216] (mprls_imu_node) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding C object CMakeFiles/mprls_imu_node__rosidl_generator_py.dir/rosidl_generator_py/mprls_imu_node/msg/_mprls_pressures_s.c.o\x1b[0m\n'}
+[12.889604] (-) TimerEvent: {}
+[12.990382] (-) TimerEvent: {}
+[13.091793] (-) TimerEvent: {}
+[13.192547] (-) TimerEvent: {}
+[13.293329] (-) TimerEvent: {}
+[13.394142] (-) TimerEvent: {}
+[13.494920] (-) TimerEvent: {}
+[13.556581] (mprls_imu_node) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking C shared library libmprls_imu_node__rosidl_generator_py.so\x1b[0m\n'}
+[13.595147] (-) TimerEvent: {}
+[13.695993] (-) TimerEvent: {}
+[13.796798] (-) TimerEvent: {}
+[13.818248] (mprls_imu_node) StdoutLine: {'line': b'[ 83%] Built target mprls_imu_node__rosidl_generator_py\n'}
+[13.898207] (-) TimerEvent: {}
+[13.986740] (mprls_imu_node) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/mprls_imu_node_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/mprls_imu_node/_mprls_imu_node_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[13.987721] (mprls_imu_node) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/mprls_imu_node_s__rosidl_typesupport_c.dir/rosidl_generator_py/mprls_imu_node/_mprls_imu_node_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[13.994152] (mprls_imu_node) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/mprls_imu_node_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/mprls_imu_node/_mprls_imu_node_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[13.998409] (-) TimerEvent: {}
+[14.102205] (-) TimerEvent: {}
+[14.203113] (-) TimerEvent: {}
+[14.304110] (-) TimerEvent: {}
+[14.406712] (-) TimerEvent: {}
+[14.511146] (-) TimerEvent: {}
+[14.612166] (-) TimerEvent: {}
+[14.683166] (mprls_imu_node) StdoutLine: {'line': b'[ 92%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/mprls_imu_node/mprls_imu_node_s__rosidl_typesupport_c.so\x1b[0m\n'}
+[14.716219] (-) TimerEvent: {}
+[14.753227] (mprls_imu_node) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/mprls_imu_node/mprls_imu_node_s__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[14.816473] (-) TimerEvent: {}
+[14.851464] (mprls_imu_node) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/mprls_imu_node/mprls_imu_node_s__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[14.919154] (-) TimerEvent: {}
+[14.960411] (mprls_imu_node) StdoutLine: {'line': b'[ 97%] Built target mprls_imu_node_s__rosidl_typesupport_c\n'}
+[15.019431] (-) TimerEvent: {}
+[15.036363] (mprls_imu_node) StdoutLine: {'line': b'[ 97%] Built target mprls_imu_node_s__rosidl_typesupport_fastrtps_c\n'}
+[15.089562] (mprls_imu_node) StdoutLine: {'line': b'[ 97%] Built target mprls_imu_node_s__rosidl_typesupport_introspection_c\n'}
+[15.119629] (-) TimerEvent: {}
+[15.220364] (-) TimerEvent: {}
+[15.321097] (-) TimerEvent: {}
+[15.421892] (-) TimerEvent: {}
+[15.522693] (-) TimerEvent: {}
+[15.623496] (-) TimerEvent: {}
+[15.724310] (-) TimerEvent: {}
+[15.825027] (-) TimerEvent: {}
+[15.925773] (-) TimerEvent: {}
+[16.026584] (-) TimerEvent: {}
+[16.127345] (-) TimerEvent: {}
+[16.228116] (-) TimerEvent: {}
+[16.328797] (-) TimerEvent: {}
+[16.429557] (-) TimerEvent: {}
+[16.530361] (-) TimerEvent: {}
+[16.631096] (-) TimerEvent: {}
+[16.731785] (-) TimerEvent: {}
+[16.832591] (-) TimerEvent: {}
+[16.933372] (-) TimerEvent: {}
+[17.034115] (-) TimerEvent: {}
+[17.134824] (-) TimerEvent: {}
+[17.235576] (-) TimerEvent: {}
+[17.336513] (-) TimerEvent: {}
+[17.437255] (-) TimerEvent: {}
+[17.538053] (-) TimerEvent: {}
+[17.638771] (-) TimerEvent: {}
+[17.739619] (-) TimerEvent: {}
+[17.840452] (-) TimerEvent: {}
+[17.941191] (-) TimerEvent: {}
+[18.041890] (-) TimerEvent: {}
+[18.142753] (-) TimerEvent: {}
+[18.243590] (-) TimerEvent: {}
+[18.344347] (-) TimerEvent: {}
+[18.445083] (-) TimerEvent: {}
+[18.545770] (-) TimerEvent: {}
+[18.646588] (-) TimerEvent: {}
+[18.747440] (-) TimerEvent: {}
+[18.848177] (-) TimerEvent: {}
+[18.948875] (-) TimerEvent: {}
+[19.049630] (-) TimerEvent: {}
+[19.150464] (-) TimerEvent: {}
+[19.251183] (-) TimerEvent: {}
+[19.351862] (-) TimerEvent: {}
+[19.452634] (-) TimerEvent: {}
+[19.553452] (-) TimerEvent: {}
+[19.654142] (-) TimerEvent: {}
+[19.754824] (-) TimerEvent: {}
+[19.855600] (-) TimerEvent: {}
+[19.956383] (-) TimerEvent: {}
+[20.057231] (-) TimerEvent: {}
+[20.157989] (-) TimerEvent: {}
+[20.258674] (-) TimerEvent: {}
+[20.359424] (-) TimerEvent: {}
+[20.460108] (-) TimerEvent: {}
+[20.560810] (-) TimerEvent: {}
+[20.661613] (-) TimerEvent: {}
+[20.762420] (-) TimerEvent: {}
+[20.863124] (-) TimerEvent: {}
+[20.963828] (-) TimerEvent: {}
+[21.064555] (-) TimerEvent: {}
+[21.165330] (-) TimerEvent: {}
+[21.266164] (-) TimerEvent: {}
+[21.366978] (-) TimerEvent: {}
+[21.467668] (-) TimerEvent: {}
+[21.568438] (-) TimerEvent: {}
+[21.669134] (-) TimerEvent: {}
+[21.769896] (-) TimerEvent: {}
+[21.870703] (-) TimerEvent: {}
+[21.971519] (-) TimerEvent: {}
+[22.072338] (-) TimerEvent: {}
+[22.173089] (-) TimerEvent: {}
+[22.273789] (-) TimerEvent: {}
+[22.374557] (-) TimerEvent: {}
+[22.475364] (-) TimerEvent: {}
+[22.576093] (-) TimerEvent: {}
+[22.676784] (-) TimerEvent: {}
+[22.777552] (-) TimerEvent: {}
+[22.878299] (-) TimerEvent: {}
+[22.979064] (-) TimerEvent: {}
+[23.079777] (-) TimerEvent: {}
+[23.180555] (-) TimerEvent: {}
+[23.281321] (-) TimerEvent: {}
+[23.382058] (-) TimerEvent: {}
+[23.388821] (mprls_imu_node) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/bmes-endoscope-25/temp_ws/src/mprls_imu_node/src/test_mprls_publisher.cpp:4\x1b[m\x1b[K:\n'}
+[23.389747] (mprls_imu_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/bmes-endoscope-25/temp_ws/src/mprls_imu_node/include/mprls_imu_node/Adafruit_MPRLS.hpp:18:32:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kconversion from \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kuint8_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kunsigned char\x1b[m\x1b[K\xe2\x80\x99} changes value from \xe2\x80\x98\x1b[01m\x1b[K16777216\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[K0\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Woverflow\x07-Woverflow\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[23.390666] (mprls_imu_node) StderrLine: {'line': b'   18 | constexpr uint8_t COUNTS_224 = \x1b[01;35m\x1b[K16777216UL\x1b[m\x1b[K;\n'}
+[23.391466] (mprls_imu_node) StderrLine: {'line': b'      |                                \x1b[01;35m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[23.482274] (-) TimerEvent: {}
+[23.583033] (-) TimerEvent: {}
+[23.683732] (-) TimerEvent: {}
+[23.784503] (-) TimerEvent: {}
+[23.885241] (-) TimerEvent: {}
+[23.985998] (-) TimerEvent: {}
+[24.086719] (-) TimerEvent: {}
+[24.187465] (-) TimerEvent: {}
+[24.288222] (-) TimerEvent: {}
+[24.388915] (-) TimerEvent: {}
+[24.489689] (-) TimerEvent: {}
+[24.590446] (-) TimerEvent: {}
+[24.691147] (-) TimerEvent: {}
+[24.791852] (-) TimerEvent: {}
+[24.892700] (-) TimerEvent: {}
+[24.993459] (-) TimerEvent: {}
+[25.094231] (-) TimerEvent: {}
+[25.194994] (-) TimerEvent: {}
+[25.295683] (-) TimerEvent: {}
+[25.396424] (-) TimerEvent: {}
+[25.497130] (-) TimerEvent: {}
+[25.597830] (-) TimerEvent: {}
+[25.698578] (-) TimerEvent: {}
+[25.799370] (-) TimerEvent: {}
+[25.900097] (-) TimerEvent: {}
+[26.000792] (-) TimerEvent: {}
+[26.101580] (-) TimerEvent: {}
+[26.202318] (-) TimerEvent: {}
+[26.303055] (-) TimerEvent: {}
+[26.403771] (-) TimerEvent: {}
+[26.504588] (-) TimerEvent: {}
+[26.605388] (-) TimerEvent: {}
+[26.706093] (-) TimerEvent: {}
+[26.806794] (-) TimerEvent: {}
+[26.907548] (-) TimerEvent: {}
+[27.008309] (-) TimerEvent: {}
+[27.109047] (-) TimerEvent: {}
+[27.209746] (-) TimerEvent: {}
+[27.310560] (-) TimerEvent: {}
+[27.411508] (-) TimerEvent: {}
+[27.512237] (-) TimerEvent: {}
+[27.613054] (-) TimerEvent: {}
+[27.713806] (-) TimerEvent: {}
+[27.814737] (-) TimerEvent: {}
+[27.916068] (-) TimerEvent: {}
+[28.016776] (-) TimerEvent: {}
+[28.117545] (-) TimerEvent: {}
+[28.218330] (-) TimerEvent: {}
+[28.319048] (-) TimerEvent: {}
+[28.419802] (-) TimerEvent: {}
+[28.520727] (-) TimerEvent: {}
+[28.621564] (-) TimerEvent: {}
+[28.722380] (-) TimerEvent: {}
+[28.823242] (-) TimerEvent: {}
+[28.924011] (-) TimerEvent: {}
+[29.024734] (-) TimerEvent: {}
+[29.125488] (-) TimerEvent: {}
+[29.226233] (-) TimerEvent: {}
+[29.327012] (-) TimerEvent: {}
+[29.427753] (-) TimerEvent: {}
+[29.528487] (-) TimerEvent: {}
+[29.629246] (-) TimerEvent: {}
+[29.729970] (-) TimerEvent: {}
+[29.830659] (-) TimerEvent: {}
+[29.931392] (-) TimerEvent: {}
+[30.032130] (-) TimerEvent: {}
+[30.133511] (-) TimerEvent: {}
+[30.234393] (-) TimerEvent: {}
+[30.335101] (-) TimerEvent: {}
+[30.435784] (-) TimerEvent: {}
+[30.536541] (-) TimerEvent: {}
+[30.637305] (-) TimerEvent: {}
+[30.738272] (-) TimerEvent: {}
+[30.839001] (-) TimerEvent: {}
+[30.939654] (-) TimerEvent: {}
+[31.040426] (-) TimerEvent: {}
+[31.141129] (-) TimerEvent: {}
+[31.242154] (-) TimerEvent: {}
+[31.343477] (-) TimerEvent: {}
+[31.444180] (-) TimerEvent: {}
+[31.544897] (-) TimerEvent: {}
+[31.645685] (-) TimerEvent: {}
+[31.746582] (-) TimerEvent: {}
+[31.847583] (-) TimerEvent: {}
+[31.948370] (-) TimerEvent: {}
+[32.049097] (-) TimerEvent: {}
+[32.149799] (-) TimerEvent: {}
+[32.250561] (-) TimerEvent: {}
+[32.351360] (-) TimerEvent: {}
+[32.452073] (-) TimerEvent: {}
+[32.552839] (-) TimerEvent: {}
+[32.653690] (-) TimerEvent: {}
+[32.754560] (-) TimerEvent: {}
+[32.855333] (-) TimerEvent: {}
+[32.956093] (-) TimerEvent: {}
+[33.056785] (-) TimerEvent: {}
+[33.157542] (-) TimerEvent: {}
+[33.258321] (-) TimerEvent: {}
+[33.359094] (-) TimerEvent: {}
+[33.459875] (-) TimerEvent: {}
+[33.560661] (-) TimerEvent: {}
+[33.661427] (-) TimerEvent: {}
+[33.762143] (-) TimerEvent: {}
+[33.862853] (-) TimerEvent: {}
+[33.963614] (-) TimerEvent: {}
+[34.064598] (-) TimerEvent: {}
+[34.165795] (-) TimerEvent: {}
+[34.266562] (-) TimerEvent: {}
+[34.268677] (mprls_imu_node) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable test_mprls_node\x1b[0m\n'}
+[34.366776] (-) TimerEvent: {}
+[34.467581] (-) TimerEvent: {}
+[34.568749] (-) TimerEvent: {}
+[34.670062] (-) TimerEvent: {}
+[34.770835] (-) TimerEvent: {}
+[34.871743] (-) TimerEvent: {}
+[34.972601] (-) TimerEvent: {}
+[35.073494] (-) TimerEvent: {}
+[35.174345] (-) TimerEvent: {}
+[35.275094] (-) TimerEvent: {}
+[35.375759] (-) TimerEvent: {}
+[35.427897] (mprls_imu_node) StdoutLine: {'line': b'[100%] Built target test_mprls_node\n'}
+[35.476006] (-) TimerEvent: {}
+[35.499549] (mprls_imu_node) CommandEnded: {'returncode': 0}
+[35.504198] (mprls_imu_node) JobProgress: {'identifier': 'mprls_imu_node', 'progress': 'install'}
+[35.550724] (mprls_imu_node) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/bmes-endoscope-25/temp_ws/build/mprls_imu_node'], 'cwd': '/home/bmes-endoscope-25/temp_ws/build/mprls_imu_node', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'bmes-endoscope-25', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/bmes-endoscope-25', 'OLDPWD': '/home/bmes-endoscope-25/temp_ws/src/mprls_imu_node', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1576', 'SYSTEMD_EXEC_PID': '2043', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3668', 'GNOME_KEYRING_CONTROL': '/run/user/1002/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/bmes-endoscope-25/temp_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'bmes-endoscope-25', 'JOURNAL_STREAM': '8:18050', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1002.slice/user@1002.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'bmes-endoscope-25', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/bmesendoscope25-desktop:@/tmp/.ICE-unix/1757,unix/bmesendoscope25-desktop:/tmp/.ICE-unix/1757', 'INVOCATION_ID': 'de063e3ff28b4349b749cf907f89e05d', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1002', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'C.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1002/.mutter-Xwaylandauth.A2O2S2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1002/keyring/ssh', 'ROS_DOMAIN_ID': '1', 'AMENT_PREFIX_PATH': '/home/bmes-endoscope-25/temp_ws/install/mprls_imu_node:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:511f7dfa-a2cd-46e4-97be-ce2a5d1883c1', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/bmes-endoscope-25/temp_ws/build/mprls_imu_node', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/bmes-endoscope-25/temp_ws/install/mprls_imu_node:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[35.576205] (-) TimerEvent: {}
+[35.602900] (mprls_imu_node) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[35.604501] (mprls_imu_node) StdoutLine: {'line': b'-- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/share/ament_index/resource_index/rosidl_interfaces/mprls_imu_node\n'}
+[35.606392] (mprls_imu_node) StdoutLine: {'line': b'-- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/share/mprls_imu_node/msg/MPRLSPressures.json\n'}
+[35.607552] (mprls_imu_node) StdoutLine: {'line': b'-- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/include/mprls_imu_node/mprls_imu_node\n'}
+[35.608299] (mprls_imu_node) StdoutLine: {'line': b'-- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/include/mprls_imu_node/mprls_imu_node/msg\n'}
+[35.608905] (mprls_imu_node) StdoutLine: {'line': b'-- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/include/mprls_imu_node/mprls_imu_node/msg/mprls_pressures.h\n'}
+[35.609955] (mprls_imu_node) StdoutLine: {'line': b'-- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/include/mprls_imu_node/mprls_imu_node/msg/detail\n'}
+[35.610637] (mprls_imu_node) StdoutLine: {'line': b'-- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/include/mprls_imu_node/mprls_imu_node/msg/detail/mprls_pressures__struct.h\n'}
+[35.611784] (mprls_imu_node) StdoutLine: {'line': b'-- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/include/mprls_imu_node/mprls_imu_node/msg/detail/mprls_pressures__type_support.c\n'}
+[35.612793] (mprls_imu_node) StdoutLine: {'line': b'-- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/include/mprls_imu_node/mprls_imu_node/msg/detail/mprls_pressures__functions.c\n'}
+[35.613911] (mprls_imu_node) StdoutLine: {'line': b'-- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/include/mprls_imu_node/mprls_imu_node/msg/detail/mprls_pressures__functions.h\n'}
+[35.615040] (mprls_imu_node) StdoutLine: {'line': b'-- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/include/mprls_imu_node/mprls_imu_node/msg/detail/mprls_pressures__description.c\n'}
+[35.616049] (mprls_imu_node) StdoutLine: {'line': b'-- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/include/mprls_imu_node/mprls_imu_node/msg/detail/mprls_pressures__type_support.h\n'}
+[35.617138] (mprls_imu_node) StdoutLine: {'line': b'-- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/include/mprls_imu_node/mprls_imu_node/msg/rosidl_generator_c__visibility_control.h\n'}
+[35.618496] (mprls_imu_node) StdoutLine: {'line': b'-- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/share/mprls_imu_node/environment/library_path.sh\n'}
+[35.619671] (mprls_imu_node) StdoutLine: {'line': b'-- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/share/mprls_imu_node/environment/library_path.dsv\n'}
+[35.620949] (mprls_imu_node) StdoutLine: {'line': b'-- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/lib/libmprls_imu_node__rosidl_generator_c.so\n'}
+[35.623775] (mprls_imu_node) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/lib/libmprls_imu_node__rosidl_generator_c.so" to ""\n'}
+[35.624397] (mprls_imu_node) StdoutLine: {'line': b'-- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/include/mprls_imu_node/mprls_imu_node\n'}
+[35.624918] (mprls_imu_node) StdoutLine: {'line': b'-- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/include/mprls_imu_node/mprls_imu_node/msg\n'}
+[35.625331] (mprls_imu_node) StdoutLine: {'line': b'-- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/include/mprls_imu_node/mprls_imu_node/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[35.626062] (mprls_imu_node) StdoutLine: {'line': b'-- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/include/mprls_imu_node/mprls_imu_node/msg/detail\n'}
+[35.626563] (mprls_imu_node) StdoutLine: {'line': b'-- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/include/mprls_imu_node/mprls_imu_node/msg/detail/mprls_pressures__rosidl_typesupport_fastrtps_c.h\n'}
+[35.628126] (mprls_imu_node) StdoutLine: {'line': b'-- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/lib/libmprls_imu_node__rosidl_typesupport_fastrtps_c.so\n'}
+[35.630866] (mprls_imu_node) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/lib/libmprls_imu_node__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[35.631541] (mprls_imu_node) StdoutLine: {'line': b'-- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/include/mprls_imu_node/mprls_imu_node\n'}
+[35.631897] (mprls_imu_node) StdoutLine: {'line': b'-- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/include/mprls_imu_node/mprls_imu_node/msg\n'}
+[35.632374] (mprls_imu_node) StdoutLine: {'line': b'-- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/include/mprls_imu_node/mprls_imu_node/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[35.633054] (mprls_imu_node) StdoutLine: {'line': b'-- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/include/mprls_imu_node/mprls_imu_node/msg/detail\n'}
+[35.633512] (mprls_imu_node) StdoutLine: {'line': b'-- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/include/mprls_imu_node/mprls_imu_node/msg/detail/mprls_pressures__struct.hpp\n'}
+[35.634665] (mprls_imu_node) StdoutLine: {'line': b'-- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/include/mprls_imu_node/mprls_imu_node/msg/detail/mprls_pressures__type_support.hpp\n'}
+[35.635752] (mprls_imu_node) StdoutLine: {'line': b'-- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/include/mprls_imu_node/mprls_imu_node/msg/detail/mprls_pressures__builder.hpp\n'}
+[35.636801] (mprls_imu_node) StdoutLine: {'line': b'-- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/include/mprls_imu_node/mprls_imu_node/msg/detail/mprls_pressures__traits.hpp\n'}
+[35.637863] (mprls_imu_node) StdoutLine: {'line': b'-- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/include/mprls_imu_node/mprls_imu_node/msg/mprls_pressures.hpp\n'}
+[35.639016] (mprls_imu_node) StdoutLine: {'line': b'-- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/include/mprls_imu_node/mprls_imu_node\n'}
+[35.639519] (mprls_imu_node) StdoutLine: {'line': b'-- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/include/mprls_imu_node/mprls_imu_node/msg\n'}
+[35.639906] (mprls_imu_node) StdoutLine: {'line': b'-- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/include/mprls_imu_node/mprls_imu_node/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[35.640908] (mprls_imu_node) StdoutLine: {'line': b'-- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/include/mprls_imu_node/mprls_imu_node/msg/detail\n'}
+[35.641454] (mprls_imu_node) StdoutLine: {'line': b'-- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/include/mprls_imu_node/mprls_imu_node/msg/detail/dds_fastrtps\n'}
+[35.642128] (mprls_imu_node) StdoutLine: {'line': b'-- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/include/mprls_imu_node/mprls_imu_node/msg/detail/mprls_pressures__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[35.643589] (mprls_imu_node) StdoutLine: {'line': b'-- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/lib/libmprls_imu_node__rosidl_typesupport_fastrtps_cpp.so\n'}
+[35.646411] (mprls_imu_node) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/lib/libmprls_imu_node__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[35.647078] (mprls_imu_node) StdoutLine: {'line': b'-- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/include/mprls_imu_node/mprls_imu_node\n'}
+[35.647470] (mprls_imu_node) StdoutLine: {'line': b'-- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/include/mprls_imu_node/mprls_imu_node/msg\n'}
+[35.647857] (mprls_imu_node) StdoutLine: {'line': b'-- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/include/mprls_imu_node/mprls_imu_node/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[35.648753] (mprls_imu_node) StdoutLine: {'line': b'-- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/include/mprls_imu_node/mprls_imu_node/msg/detail\n'}
+[35.649259] (mprls_imu_node) StdoutLine: {'line': b'-- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/include/mprls_imu_node/mprls_imu_node/msg/detail/mprls_pressures__type_support.c\n'}
+[35.650497] (mprls_imu_node) StdoutLine: {'line': b'-- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/include/mprls_imu_node/mprls_imu_node/msg/detail/mprls_pressures__rosidl_typesupport_introspection_c.h\n'}
+[35.651898] (mprls_imu_node) StdoutLine: {'line': b'-- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/lib/libmprls_imu_node__rosidl_typesupport_introspection_c.so\n'}
+[35.654554] (mprls_imu_node) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/lib/libmprls_imu_node__rosidl_typesupport_introspection_c.so" to ""\n'}
+[35.655124] (mprls_imu_node) StdoutLine: {'line': b'-- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/lib/libmprls_imu_node__rosidl_typesupport_c.so\n'}
+[35.657611] (mprls_imu_node) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/lib/libmprls_imu_node__rosidl_typesupport_c.so" to ""\n'}
+[35.658207] (mprls_imu_node) StdoutLine: {'line': b'-- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/include/mprls_imu_node/mprls_imu_node\n'}
+[35.658717] (mprls_imu_node) StdoutLine: {'line': b'-- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/include/mprls_imu_node/mprls_imu_node/msg\n'}
+[35.659226] (mprls_imu_node) StdoutLine: {'line': b'-- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/include/mprls_imu_node/mprls_imu_node/msg/detail\n'}
+[35.659599] (mprls_imu_node) StdoutLine: {'line': b'-- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/include/mprls_imu_node/mprls_imu_node/msg/detail/mprls_pressures__type_support.cpp\n'}
+[35.660349] (mprls_imu_node) StdoutLine: {'line': b'-- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/include/mprls_imu_node/mprls_imu_node/msg/detail/mprls_pressures__rosidl_typesupport_introspection_cpp.hpp\n'}
+[35.661809] (mprls_imu_node) StdoutLine: {'line': b'-- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/lib/libmprls_imu_node__rosidl_typesupport_introspection_cpp.so\n'}
+[35.664518] (mprls_imu_node) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/lib/libmprls_imu_node__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[35.665132] (mprls_imu_node) StdoutLine: {'line': b'-- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/lib/libmprls_imu_node__rosidl_typesupport_cpp.so\n'}
+[35.667680] (mprls_imu_node) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/lib/libmprls_imu_node__rosidl_typesupport_cpp.so" to ""\n'}
+[35.668249] (mprls_imu_node) StdoutLine: {'line': b'-- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/share/mprls_imu_node/environment/pythonpath.sh\n'}
+[35.669212] (mprls_imu_node) StdoutLine: {'line': b'-- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/share/mprls_imu_node/environment/pythonpath.dsv\n'}
+[35.670291] (mprls_imu_node) StdoutLine: {'line': b'-- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/lib/python3.12/site-packages/mprls_imu_node-0.0.0-py3.12.egg-info\n'}
+[35.671142] (mprls_imu_node) StdoutLine: {'line': b'-- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/lib/python3.12/site-packages/mprls_imu_node-0.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[35.672249] (mprls_imu_node) StdoutLine: {'line': b'-- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/lib/python3.12/site-packages/mprls_imu_node-0.0.0-py3.12.egg-info/top_level.txt\n'}
+[35.673281] (mprls_imu_node) StdoutLine: {'line': b'-- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/lib/python3.12/site-packages/mprls_imu_node-0.0.0-py3.12.egg-info/PKG-INFO\n'}
+[35.674339] (mprls_imu_node) StdoutLine: {'line': b'-- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/lib/python3.12/site-packages/mprls_imu_node-0.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[35.675552] (mprls_imu_node) StdoutLine: {'line': b'-- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/lib/python3.12/site-packages/mprls_imu_node\n'}
+[35.676243] (mprls_imu_node) StdoutLine: {'line': b'-- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/lib/python3.12/site-packages/mprls_imu_node/__init__.py\n'}
+[35.676624] (-) TimerEvent: {}
+[35.677179] (mprls_imu_node) StdoutLine: {'line': b'-- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/lib/python3.12/site-packages/mprls_imu_node/msg\n'}
+[35.678000] (mprls_imu_node) StdoutLine: {'line': b'-- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/lib/python3.12/site-packages/mprls_imu_node/msg/__init__.py\n'}
+[35.679254] (mprls_imu_node) StdoutLine: {'line': b'-- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/lib/python3.12/site-packages/mprls_imu_node/msg/_mprls_pressures.py\n'}
+[35.680486] (mprls_imu_node) StdoutLine: {'line': b'-- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/lib/python3.12/site-packages/mprls_imu_node/msg/_mprls_pressures_s.c\n'}
+[35.681726] (mprls_imu_node) StdoutLine: {'line': b'-- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/lib/python3.12/site-packages/mprls_imu_node/_mprls_imu_node_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[35.683104] (mprls_imu_node) StdoutLine: {'line': b'-- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/lib/python3.12/site-packages/mprls_imu_node/mprls_imu_node_s__rosidl_typesupport_fastrtps_c.so\n'}
+[35.685210] (mprls_imu_node) StdoutLine: {'line': b'-- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/lib/python3.12/site-packages/mprls_imu_node/mprls_imu_node_s__rosidl_typesupport_introspection_c.so\n'}
+[35.687375] (mprls_imu_node) StdoutLine: {'line': b'-- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/lib/python3.12/site-packages/mprls_imu_node/_mprls_imu_node_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[35.692107] (mprls_imu_node) StdoutLine: {'line': b'-- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/lib/python3.12/site-packages/mprls_imu_node/_mprls_imu_node_s.ep.rosidl_typesupport_c.c\n'}
+[35.692729] (mprls_imu_node) StdoutLine: {'line': b'-- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/lib/python3.12/site-packages/mprls_imu_node/mprls_imu_node_s__rosidl_typesupport_c.so\n'}
+[35.776811] (-) TimerEvent: {}
+[35.877423] (-) TimerEvent: {}
+[35.885304] (mprls_imu_node) StdoutLine: {'line': b"Listing '/home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/lib/python3.12/site-packages/mprls_imu_node'...\n"}
+[35.887248] (mprls_imu_node) StdoutLine: {'line': b"Compiling '/home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/lib/python3.12/site-packages/mprls_imu_node/__init__.py'...\n"}
+[35.888901] (mprls_imu_node) StdoutLine: {'line': b"Listing '/home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/lib/python3.12/site-packages/mprls_imu_node/msg'...\n"}
+[35.890890] (mprls_imu_node) StdoutLine: {'line': b"Compiling '/home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/lib/python3.12/site-packages/mprls_imu_node/msg/__init__.py'...\n"}
+[35.892393] (mprls_imu_node) StdoutLine: {'line': b"Compiling '/home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/lib/python3.12/site-packages/mprls_imu_node/msg/_mprls_pressures.py'...\n"}
+[35.933025] (mprls_imu_node) StdoutLine: {'line': b'-- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/lib/python3.12/site-packages/mprls_imu_node/mprls_imu_node_s__rosidl_typesupport_fastrtps_c.so\n'}
+[35.935728] (mprls_imu_node) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/lib/python3.12/site-packages/mprls_imu_node/mprls_imu_node_s__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[35.937259] (mprls_imu_node) StdoutLine: {'line': b'-- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/lib/python3.12/site-packages/mprls_imu_node/mprls_imu_node_s__rosidl_typesupport_introspection_c.so\n'}
+[35.940968] (mprls_imu_node) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/lib/python3.12/site-packages/mprls_imu_node/mprls_imu_node_s__rosidl_typesupport_introspection_c.so" to ""\n'}
+[35.942964] (mprls_imu_node) StdoutLine: {'line': b'-- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/lib/python3.12/site-packages/mprls_imu_node/mprls_imu_node_s__rosidl_typesupport_c.so\n'}
+[35.946764] (mprls_imu_node) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/lib/python3.12/site-packages/mprls_imu_node/mprls_imu_node_s__rosidl_typesupport_c.so" to ""\n'}
+[35.947696] (mprls_imu_node) StdoutLine: {'line': b'-- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/lib/libmprls_imu_node__rosidl_generator_py.so\n'}
+[35.950984] (mprls_imu_node) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/lib/libmprls_imu_node__rosidl_generator_py.so" to ""\n'}
+[35.951596] (mprls_imu_node) StdoutLine: {'line': b'-- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/share/mprls_imu_node/msg/MPRLSPressures.idl\n'}
+[35.952557] (mprls_imu_node) StdoutLine: {'line': b'-- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/share/mprls_imu_node/msg/MPRLSPressures.msg\n'}
+[35.953731] (mprls_imu_node) StdoutLine: {'line': b'-- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/lib/mprls_imu_node/libsensor_drivers.so\n'}
+[35.956478] (mprls_imu_node) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/lib/mprls_imu_node/libsensor_drivers.so" to ""\n'}
+[35.957126] (mprls_imu_node) StdoutLine: {'line': b'-- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/lib/mprls_imu_node/test_mprls_node\n'}
+[35.967437] (mprls_imu_node) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/lib/mprls_imu_node/test_mprls_node" to ""\n'}
+[35.968149] (mprls_imu_node) StdoutLine: {'line': b'-- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/include\n'}
+[35.968615] (mprls_imu_node) StdoutLine: {'line': b'-- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/include/mprls_imu_node\n'}
+[35.969106] (mprls_imu_node) StdoutLine: {'line': b'-- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/include/mprls_imu_node/Adafruit_MPRLS.hpp\n'}
+[35.969586] (mprls_imu_node) StdoutLine: {'line': b'-- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/include/mprls_imu_node/TCA9548A.hpp\n'}
+[35.970690] (mprls_imu_node) StdoutLine: {'line': b'-- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/share/mprls_imu_node/msg\n'}
+[35.971269] (mprls_imu_node) StdoutLine: {'line': b'-- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/share/mprls_imu_node/msg/MPRLSPressures.msg\n'}
+[35.972113] (mprls_imu_node) StdoutLine: {'line': b'-- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/lib/mprls_imu_node/test_tca\n'}
+[35.974278] (mprls_imu_node) StdoutLine: {'line': b'-- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/share/ament_index/resource_index/package_run_dependencies/mprls_imu_node\n'}
+[35.975695] (mprls_imu_node) StdoutLine: {'line': b'-- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/share/ament_index/resource_index/parent_prefix_path/mprls_imu_node\n'}
+[35.976348] (mprls_imu_node) StdoutLine: {'line': b'-- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/share/mprls_imu_node/environment/ament_prefix_path.sh\n'}
+[35.976911] (mprls_imu_node) StdoutLine: {'line': b'-- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/share/mprls_imu_node/environment/ament_prefix_path.dsv\n'}
+[35.977377] (mprls_imu_node) StdoutLine: {'line': b'-- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/share/mprls_imu_node/environment/path.sh\n'}
+[35.977731] (-) TimerEvent: {}
+[35.979449] (mprls_imu_node) StdoutLine: {'line': b'-- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/share/mprls_imu_node/environment/path.dsv\n'}
+[35.980426] (mprls_imu_node) StdoutLine: {'line': b'-- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/share/mprls_imu_node/local_setup.bash\n'}
+[35.980865] (mprls_imu_node) StdoutLine: {'line': b'-- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/share/mprls_imu_node/local_setup.sh\n'}
+[35.981469] (mprls_imu_node) StdoutLine: {'line': b'-- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/share/mprls_imu_node/local_setup.zsh\n'}
+[35.981981] (mprls_imu_node) StdoutLine: {'line': b'-- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/share/mprls_imu_node/local_setup.dsv\n'}
+[35.982596] (mprls_imu_node) StdoutLine: {'line': b'-- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/share/mprls_imu_node/package.dsv\n'}
+[35.983241] (mprls_imu_node) StdoutLine: {'line': b'-- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/share/ament_index/resource_index/packages/mprls_imu_node\n'}
+[35.983827] (mprls_imu_node) StdoutLine: {'line': b'-- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/share/mprls_imu_node/cmake/export_mprls_imu_node__rosidl_generator_cExport.cmake\n'}
+[35.985506] (mprls_imu_node) StdoutLine: {'line': b'-- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/share/mprls_imu_node/cmake/export_mprls_imu_node__rosidl_generator_cExport-noconfig.cmake\n'}
+[35.987451] (mprls_imu_node) StdoutLine: {'line': b'-- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/share/mprls_imu_node/cmake/export_mprls_imu_node__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[35.989200] (mprls_imu_node) StdoutLine: {'line': b'-- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/share/mprls_imu_node/cmake/export_mprls_imu_node__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[35.992227] (mprls_imu_node) StdoutLine: {'line': b'-- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/share/mprls_imu_node/cmake/export_mprls_imu_node__rosidl_generator_cppExport.cmake\n'}
+[35.996364] (mprls_imu_node) StdoutLine: {'line': b'-- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/share/mprls_imu_node/cmake/export_mprls_imu_node__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[35.999600] (mprls_imu_node) StdoutLine: {'line': b'-- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/share/mprls_imu_node/cmake/export_mprls_imu_node__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[36.002275] (mprls_imu_node) StdoutLine: {'line': b'-- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/share/mprls_imu_node/cmake/mprls_imu_node__rosidl_typesupport_introspection_cExport.cmake\n'}
+[36.004687] (mprls_imu_node) StdoutLine: {'line': b'-- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/share/mprls_imu_node/cmake/mprls_imu_node__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[36.006984] (mprls_imu_node) StdoutLine: {'line': b'-- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/share/mprls_imu_node/cmake/mprls_imu_node__rosidl_typesupport_cExport.cmake\n'}
+[36.008632] (mprls_imu_node) StdoutLine: {'line': b'-- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/share/mprls_imu_node/cmake/mprls_imu_node__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[36.010178] (mprls_imu_node) StdoutLine: {'line': b'-- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/share/mprls_imu_node/cmake/mprls_imu_node__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[36.011671] (mprls_imu_node) StdoutLine: {'line': b'-- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/share/mprls_imu_node/cmake/mprls_imu_node__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[36.013155] (mprls_imu_node) StdoutLine: {'line': b'-- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/share/mprls_imu_node/cmake/mprls_imu_node__rosidl_typesupport_cppExport.cmake\n'}
+[36.014479] (mprls_imu_node) StdoutLine: {'line': b'-- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/share/mprls_imu_node/cmake/mprls_imu_node__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[36.015901] (mprls_imu_node) StdoutLine: {'line': b'-- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/share/mprls_imu_node/cmake/export_mprls_imu_node__rosidl_generator_pyExport.cmake\n'}
+[36.017340] (mprls_imu_node) StdoutLine: {'line': b'-- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/share/mprls_imu_node/cmake/export_mprls_imu_node__rosidl_generator_pyExport-noconfig.cmake\n'}
+[36.018894] (mprls_imu_node) StdoutLine: {'line': b'-- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/share/mprls_imu_node/cmake/rosidl_cmake-extras.cmake\n'}
+[36.020148] (mprls_imu_node) StdoutLine: {'line': b'-- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/share/mprls_imu_node/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[36.021409] (mprls_imu_node) StdoutLine: {'line': b'-- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/share/mprls_imu_node/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[36.022625] (mprls_imu_node) StdoutLine: {'line': b'-- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/share/mprls_imu_node/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[36.023855] (mprls_imu_node) StdoutLine: {'line': b'-- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/share/mprls_imu_node/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[36.025168] (mprls_imu_node) StdoutLine: {'line': b'-- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/share/mprls_imu_node/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[36.026440] (mprls_imu_node) StdoutLine: {'line': b'-- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/share/mprls_imu_node/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[36.027651] (mprls_imu_node) StdoutLine: {'line': b'-- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/share/mprls_imu_node/cmake/mprls_imu_nodeConfig.cmake\n'}
+[36.028796] (mprls_imu_node) StdoutLine: {'line': b'-- Up-to-date: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/share/mprls_imu_node/cmake/mprls_imu_nodeConfig-version.cmake\n'}
+[36.029345] (mprls_imu_node) StdoutLine: {'line': b'-- Installing: /home/bmes-endoscope-25/temp_ws/install/mprls_imu_node/share/mprls_imu_node/package.xml\n'}
+[36.037875] (mprls_imu_node) CommandEnded: {'returncode': 0}
+[36.080361] (-) TimerEvent: {}
+[36.149393] (mprls_imu_node) JobEnded: {'identifier': 'mprls_imu_node', 'rc': 0}
+[36.152829] (-) EventReactorShutdown: {}
