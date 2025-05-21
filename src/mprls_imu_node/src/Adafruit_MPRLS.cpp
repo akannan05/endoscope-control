@@ -96,6 +96,9 @@ uint32_t MPRLS::readRaw() {
 
     if (!writeCommand())
         return 0xFFFFFFFF;
+    
+    if (!waitReady())
+        return 0xFFFFFFFF;
 
     uint8_t buffer[4] = {0};
     ssize_t read_bytes = read(fd_, buffer, 4);
