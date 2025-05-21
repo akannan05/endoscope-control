@@ -17,7 +17,7 @@ constexpr uint8_t MPRLS_STATUS_MATHSAT = 0x01;
 constexpr uint8_t MPRLS_STATUS_MASK = 0b01100101;
 constexpr uint32_t COUNTS_224 = 16777216UL;
 constexpr uint32_t MPRLS_READ_TIMEOUT_MS = 20;
-constexpr uint8_t PSI_TO_HPA = 68.947572932f;
+constexpr float PSI_TO_HPA = 68.947572932f;
 
 /*
  * CLASS DECLARATION
