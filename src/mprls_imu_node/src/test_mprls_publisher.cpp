@@ -1,7 +1,9 @@
 #include "rclcpp/rclcpp.hpp"
+
 #include "mprls_imu_node/msg/mprls_pressures.hpp"
 #include "mprls_imu_node/TCA9548A.hpp"
 #include "mprls_imu_node/Adafruit_MPRLS.hpp"
+#include "mprls_imu_node/Mux_Manager.hpp"
 
 #include <chrono>
 
@@ -14,7 +16,8 @@ class MprlsMuxNode : public rclcpp::Node
             : Node("mprls_mux_node"),
             mux_(),
             sensor1_(),
-            sensor2_()
+            sensor2_(),
+            mux_manager_()
     {
         if(mux_.init(1) == -1) {
             RCLCPP_ERROR(this->get_logger(), "Failed to initialize TCA9548A mux");
@@ -41,10 +44,10 @@ class MprlsMuxNode : public rclcpp::Node
 
     private:
         void timer_callback() {
-            mux_.set_channel(0);
+            mux_manager_.set_channel(0);
             float pressure1 = sensor1_->readPressure();
 
-            mux_.set_channel(1);
+            mux_manager_.set_channel(1);
             float pressure2 = sensor2_->readPressure();
 
             auto message = mprls_imu_node::msg::MPRLSPressures();
@@ -60,6 +63,7 @@ class MprlsMuxNode : public rclcpp::Node
         TCA9548A mux_;
         std::unique_ptr<MPRLS> sensor1_;
         std::unique_ptr<MPRLS> sensor2_;
+        Mux_Manager mux_manager_;
 
         rclcpp::Publisher<mprls_imu_node::msg::MPRLSPressures>::SharedPtr pub_;
         rclcpp::TimerBase::SharedPtr timer_;

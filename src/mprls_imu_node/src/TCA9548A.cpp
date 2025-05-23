@@ -39,7 +39,7 @@ int TCA9548A::init(int bus_id, uint8_t address){
 
 void TCA9548A::set_channel(uint8_t channel) {
     if (fd < 0) {
-        std::cerr << "i2c device not initializd" << "\n";
+        std::cerr << "i2c device not initialized" << "\n";
         return;
     }
 
